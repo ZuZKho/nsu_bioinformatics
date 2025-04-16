@@ -1,0 +1,1957 @@
+########################################
+# Program: needle
+# Rundate: Wed 16 Apr 2025 15:24:59
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20250416-152445-0250-8846899-p1m.asequence
+#    -bsequence emboss_needle-I20250416-152445-0250-8846899-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: c50265726-50241947
+# 2: c81784-73434
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23947
+# Identity:    5405/23947 (22.6%)
+# Similarity:  5405/23947 (22.6%)
+# Gaps:       15763/23947 (65.8%)
+# Score: 20674.5
+# 
+#
+#=======================================
+
+c50265726-502      1 GAGTGCGCAGGACTGGCAAGAGGGAAGCCGGGCTGCTCCACGCCTTTCAC     50
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502     51 GCCTTCCACCTCCTGCGTGTCCATCTGTGAGAAGGAGCCAGAGCCCAAGG    100
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    101 GAGATGATGGAGCCTGAGGAGTACAGAGAGAGAGGTGAGCAACGGGCATC    150
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    151 CCTGGCCCTCTTCCCTGCTGCTACTCCTGCAGGAACGGCTGCTGGTGGGT    200
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    201 GGCCCTTAGATTCTGGGGTGACATTTGATGGGAGCATTAGAATTGCCTTC    250
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    251 TGAGAGTTGGCACCAGCAACATTTTTTTTTCTGCGAAAGGAATGTGGGAT    300
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    301 CAGAGTGTAAAACTTTTCTCAACCACTCTTTCATTCTCCCTCTCATATAC    350
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    351 CCACTCTCACATATGTCCACACTACCGTGCCTTGCTTTTCCTCCCCACTT    400
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    401 TCCCACAAAATTGAGGATTTGGATCCCTGAGCCACTAGATGGGAAAAGGG    450
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    451 GATTGTTCATATTCTGAAATAGAAAAAAATTTTCTCAATATTCTGTAATC    500
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    501 ACTGCAAATCCTTTCTTTCTTAACATTCATTCCTTCATGTGTGAATCTAT    550
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    551 CAGCAGTGTTCTTTCATTTAGTCATTCATTTCATAAATATTTAGTAGGTG    600
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    601 CCTACTCTGTATCAGGCAAAACCAAGTGGTTATCCAGTTCTCAGGCATGG    650
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    651 ATCTCCCTTAGCAGGAAAGTAGGTAGTTGCTTAAAAAAGAATCTTGAATG    700
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    701 TCTATTTCTATAATGTTTTATATCCTCCTACTCACTAATTAGTGTGCGTT    750
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    751 AGCTTATTCCATTGCTTTCCTAAGGCACTGTCAGCTGAGAGCAAGTTCCT    800
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    801 GTGGATATTTATCTTCTGAGTGGAACACAAATACATTTAGCACTGTTCCT    850
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    851 GGATCAGTGGAGGGTTAGGTCTAGAGCTCTCAGATCTCTGGTGGGGCCCT    900
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    901 GCTGGAGAAGAACCAGGATGTGAGAGGGTTGAAGGGGAGCAGAAGGAAGA    950
+                                                                       
+c81784-73434       1 --------------------------------------------------      0
+
+c50265726-502    951 TAGAATGGTGTGGAAATCTACCTTTGTCTCATAAGTTTTGTCTGGGGTTG   1000
+                                   |..|...|.....|.||.|                 
+c81784-73434       1 --------------ACACACACACACACACACA-----------------     19
+
+c50265726-502   1001 GTTCTGTTCTTAAGAACTTTGCATAAGCTGATGCAGAGGGGAGAAACTGA   1050
+                             ||.|...||   .||||..|..|..||     .|.|.||   
+c81784-73434      20 --------CTCACACAC---ACATACACACACACA-----CACACAC---     50
+
+c50265726-502   1051 GTCCCCTCTCCTAGGTAAAAGCAGCCCAGGGAGTACTAAGGAATGGATGT   1100
+                       .|.|||.||.|...|.|..|| |.|       ||              
+c81784-73434      51 --ACACTCACCCACACACACACA-CTC-------AC--------------     76
+
+c50265726-502   1101 TGAGACAGACAAAGAGATATGTACACACACACACATGCACACACAGCAAC   1150
+                         |||.|||.|.|.|.|...|||||||||||||..||||||||...||
+c81784-73434      77 ----ACACACACACACACACACACACACACACACACACACACACACACAC    122
+
+c50265726-502   1151 AGAGGCACTGAAGACTGCAATCTGAAAGAATAAATAATTTGCAATAGTTT   1200
+                     |.|..|||     ||| ||..|..|.|              ||       
+c81784-73434     123 ACACACAC-----ACT-CACACACACA--------------CA-------    145
+
+c50265726-502   1201 CAGAGTGTTCAACTTGACTTTTTTTTCCTTCCTTACTCATATGTTCATTC   1250
+                     ||       ||                |...|..||.||.|....||.||
+c81784-73434     146 CA-------CA----------------CACACACACACACACACACACTC    172
+
+c50265726-502   1251 ACTTGATACATTTTTTTTTAGCATCTAAAAAATATCCTAAGCACTGAGGT   1300
+                     ||   |.|||.|..       ||..|.|..||||||   .||||...|..
+c81784-73434     173 AC---ACACACTCC-------CAAATGATGAATATC---TGCACAATGAA    209
+
+c50265726-502   1301 GTTGATGGAGGCAGCAGGAGGGAGAGAAAGTCATTAAGATTTGGTGCCAC   1350
+                     ..||.|..|  ||||           .|.|||.|.|.|            
+c81784-73434     210 AGTGTTTTA--CAGC-----------GATGTCCTGATG------------    234
+
+c50265726-502   1351 ATTTCCCAGGCCAGGGCAGGGGGCTTGGTCTGGATCCATGGTTGTGCTTT   1400
+                         |.|.|.|.|               ||..|.||| ||..||||..|.
+c81784-73434     235 ----CGCTGACAA---------------TCCAGCTCC-TGTGTGTGTGTG    264
+
+c50265726-502   1401 AGGGATTCTGTGAGCCTCAGAAATTATACACAAAGTTCTGTGTATATGTA   1450
+                     .|.|..|.||||.|                      |.|||||.|.||| 
+c81784-73434     265 TGTGTGTGTGTGTG----------------------TGTGTGTGTGTGT-    291
+
+c50265726-502   1451 AGCCTACAGTTTTAATCAGATTCTTGAATTAAGTCCTCATATGAGTCCAA   1500
+                             |||||                    |||||.|.|...|.|  
+c81784-73434     292 --------GTTTT--------------------TCCTCCTGTTGTTTC--    311
+
+c50265726-502   1501 AAAAGATGAATAATAACTGATTCAATGGGGATGGTGAAAAAATAGATTTT   1550
+                          |||     |.||||.|                   ||||||    
+c81784-73434     312 -----ATG-----TCACTGTT-------------------AATAGA----    328
+
+c50265726-502   1551 TTTGTCCTTTATCGGAACTGGGCATGGAATCTTTCTATCTGTGCTAACAG   1600
+                               .||||..||.|.|||                         
+c81784-73434     329 ----------CTCGGGTCTTGTCAT-------------------------    343
+
+c50265726-502   1601 ATATAACTGGTGGGTGTGTGTGTAACAATTTTTGGATACAAAGAGCTATA   1650
+                                 |.|||||||||                           
+c81784-73434     344 ------------GATGTGTGTGT---------------------------    354
+
+c50265726-502   1651 GAGTTTCTATTGAAC-CTATAAAATAGTTAATAGATGT-TCTGTTTCTGA   1698
+                     |||||.|...||.|| ||.|    ||||     ||.|| |.|||.|.||.
+c81784-73434     355 GAGTTGCAGATGTACGCTGT----TAGT-----GAAGTGTGTGTGTGTGT    395
+
+c50265726-502   1699 GAAGGAAAGAAAGGTAGGAGAGACAATCAAAATTGAAGTGGATAAAGGAA   1748
+                     |.           ||..|.|.|.|         ||  ||||.....|..|
+c81784-73434     396 GT-----------GTGTGTGTGGC---------TG--GTGGTCTGCGTCA    423
+
+c50265726-502   1749 GGGGAAAGAAAATGAAACGTTTCACTTTGGCGCTAGAGTTTTGTGCTTTG   1798
+                     ||||..||          |.|..|..|..||.|          .||    
+c81784-73434     424 GGGGGCAG----------GGTCTATATAAGCAC----------AGC----    449
+
+c50265726-502   1799 GAGATTTTCCTTTTTGTTCATTTGCTCACTTAGAAACTCCCTCCATCATT   1848
+                                      .|||.||      .||.|.|.|.|.|       
+c81784-73434     450 -----------------ACATGTG------AAGCAGCACACAC-------    469
+
+c50265726-502   1849 CATTCACTCCCTCACTCTTTTTTTAAATTCTGAAGATAAGGTCGTGCAGG   1898
+                        .|||.|.|.|||.||..|.||.   |||||          |||..||
+c81784-73434     470 ---ACACACACACACACTAATCTTC---TCTGA----------GTGACGG    503
+
+c50265726-502   1899 GGATCAGATCCTACCCTCGGCCCATGAATCTGTCTCTCTCTTTTTTTTGA   1948
+                     |...|||       ||.|.|                            ||
+c81784-73434     504 GATGCAG-------CCGCAG----------------------------GA    518
+
+c50265726-502   1949 GTCCAGGCTGGAGTGCAGTGGCACGATCTCGGCTCACTGCAACCTCCGTC   1998
+                     ||.||.||||      ||.||                             
+c81784-73434     519 GTACATGCTG------AGAGG-----------------------------    533
+
+c50265726-502   1999 TCCCAGGTTCAAGCGATTCTCCTGCCTCAGCCTCCCAAGTAGCTGGGATT   2048
+                             |.|||.|..|.|                  ||..||  ||| 
+c81784-73434     534 --------TAAAGTGTGTGT------------------GTGACT--GAT-    554
+
+c50265726-502   2049 ACATGCGCCTGCCACCACGCCCGGCTAATTTTTTGTATTTTTAGTAGAGA   2098
+                             |||  |.|||.|||.|         |||.|.|||.|      
+c81784-73434     555 --------CTG--AGCACACCCTG---------TGTGTGTTTTG------    579
+
+c50265726-502   2099 GGGGTTTGACCATGTTAGTCAGGATGGTCTTGATCTCCTGACCTCGTGAT   2148
+                          ||.||..|.||                                  
+c81784-73434     580 -----TTAACATTATT----------------------------------    590
+
+c50265726-502   2149 CCGCCTGCCTCAGCCTCCCAAAGTGCTGGGATTACAGGCATGAGCCACTG   2198
+                                              |||.|.      |||||.|    ||
+c81784-73434     591 -------------------------CTGTGT------GCATGTG----TG    605
+
+c50265726-502   2199 TGCCCGGCCAAATCCATCTCCTTCTTTACCAAGTCTCTTGGCCCGGACCT   2248
+                     |||.||                                           |
+c81784-73434     606 TGCGCG-------------------------------------------T    612
+
+c50265726-502   2249 GAGAGGGATGGGCACAAATCGGTCAGGCCCAGTCAGGGGATTTCAGCCTG   2298
+                     |.|.|.|.||.|...|..||       |||         .|||..||.||
+c81784-73434     613 GTGTGTGTTGTGTTGATGTC-------CCC---------CTTTGTGCATG    646
+
+c50265726-502   2299 ATTTCTCTATGTCACTTCTAGGGAGAGAGATGGTGGATTACATCTGCCAG   2348
+                            |.|||   .|.||||||..|||||||||||.|||||...||||
+c81784-73434     647 -------TGTGT---GTGTAGGGAAGGAGATGGTGGAGTACATACACCAG    686
+
+c50265726-502   2349 TACCTGAGCACTGTGC-GGGAGAGACGTGTGACGCCAGACGTGCAGCCTG   2397
+                     ||.|||| ||..|..| |||||.|.||.|||...|||||.||.|||||.|
+c81784-73434     687 TATCTGA-CAGGGATCAGGGAGCGGCGGGTGGTTCCAGATGTTCAGCCGG    735
+
+c50265726-502   2398 GCTACCTGCGAGCCCAGCTGCCTGAGAGTGCTCCTGAGGACCCCGACAGC   2447
+                     |||.|.||||..|.|..|||||....||.||.||..|.||.||.||...|
+c81784-73434     736 GCTTCATGCGTCCTCTCCTGCCCAGCAGCGCCCCCTATGAGCCGGAGGAC    785
+
+c50265726-502   2448 TGGGACAGCATCTTTGGGGACATTGAACGAATCATCATGCCTGGGGTGAG   2497
+                     |||..||.||||.|...||||.|.||....|||||||||||||||||..|
+c81784-73434     786 TGGAGCACCATCATGCAGGACGTGGAGAACATCATCATGCCTGGGGTCCG    835
+
+c50265726-502   2498 AC--ACAG--TGACCACAAGGGCAGT---TCTGGATTTCAGGGCACAGAA   2540
+                     .|  .|.|  |||||     |.|.||   ||||..|.||.|.|      .
+c81784-73434     836 TCTGTCTGTCTGACC-----GTCTGTCCGTCTGTCTGTCTGTG------T    874
+
+c50265726-502   2541 GGGTGGGTG-GTGGCCTGGAGAAAGACCTGCTTTGGGTCAGCTTGGGATG   2589
+                     |.|||.||| |||                  |.||.||..|..||.||||
+c81784-73434     875 GTGTGTGTGTGTG------------------TGTGTGTGTGTGTGTGATG    906
+
+c50265726-502   2590 AGAATGCATCCTTCAGCCACTTGGCCACCAACACCCCAGCCCATCTGCTA   2639
+                                      |.||..|                   |||||| 
+c81784-73434     907 -----------------CGCTGTG-------------------TCTGCT-    919
+
+c50265726-502   2640 GGCATGTGGAGGGCAGGACTTTGACTGGTATTAGGTTTCTTTTTCTTTTT   2689
+                                 ||||..||   .|||                       
+c81784-73434     920 ------------GCAGTTCT---GCTG-----------------------    931
+
+c50265726-502   2690 TTTTGCCCAGTTGTGCCATGGCATGAGGTTTCTGATGCCAGGGCAGGG--   2737
+                      |.||.||.||              |||    ||.|||...|||||.|  
+c81784-73434     932 -TGTGTCCTGT--------------AGG----TGGTGCACTGGCAGAGTC    962
+
+c50265726-502   2738 CTGGCCAGAACACCTGCATTCCAGAGCACAGCCTGGCAGAAGTGTGGAAG   2787
+                     |...|..|.||.|.|...|.||.|.||.||.|.   ||      |||..|
+c81784-73434     963 CACACATGCACGCGTATTTCCCTGCGCTCAACT---CA------TGGCCG   1003
+
+c50265726-502   2788 TCTAATGGGATGGGTGGAGAAGTGAACATTTTGTCTGAGGGGAAAGGACA   2837
+                     ||                                             ||.
+c81784-73434    1004 TC---------------------------------------------ACT   1008
+
+c50265726-502   2838 ACTGTGTATAGTAAGACAGGGGAGAGGAAGCTGGTGGTAGTGCCTGGCCC   2887
+                     .|||.|       ||||          |.|||||               |
+c81784-73434    1009 GCTGGG-------AGAC----------ATGCTGG---------------C   1026
+
+c50265726-502   2888 TGACGACGGAGCCAGAGACTCTTCTGTACAGTGTCTGAGACCACACCAAA   2937
+                     .|||      ||||     ||..|||        |...|.|..||||   
+c81784-73434    1027 AGAC------GCCA-----TCAACTG--------CCTCGGCTTCACC---   1054
+
+c50265726-502   2938 GAGAAGGAAGGAAGTGGGGAACACATCCTGGCAAGGACACGCTGGTGACC   2987
+                                   ||||.||||||..|  .||...||||.|        
+c81784-73434    1055 --------------TGGGTAACACACAC--ACACACACACAC--------   1080
+
+c50265726-502   2988 AGGTTGCGTTGGCCCAGGAAACTGAGTGGGCCCTGGCAACCCCTCCTGTC   3037
+                                .|.||              |.|...||..|.|||...|.
+c81784-73434    1081 -----------ACACA--------------CACACACACTCTCTCTCTTT   1105
+
+c50265726-502   3038 CCCTCTGAGGTCTGGTGATTGAGCTGCTTTTCAAGAGCAAGAAGGGACTT   3087
+                     |.|||| ..|||||.||..|||                            
+c81784-73434    1106 CACTCT-TTGTCTGTTGTGTGA----------------------------   1126
+
+c50265726-502   3088 TCCCTGAATCATTGATACTTTCCATGATGGAGGGTGCAGCCTGGGATAGT   3137
+                                   |||.|.|        |.|.|||     ||.|...||
+c81784-73434    1127 --------------ATATTAT--------GTGTGTG-----TGTGTGTGT   1149
+
+c50265726-502   3138 GCTGGTGGGGCCAGGAAGCTGATGGAAGCTGGCTGATGCATGGGCTTGAG   3187
+                     |...|||                      ||..| |||..||.|..||.|
+c81784-73434    1150 GTGTGTG----------------------TGTAT-ATGTGTGTGTGTGTG   1176
+
+c50265726-502   3188 CTGGAGCCTGCCTTGATGGGTG-GTGGACACCCCTGACCACTGGCGGTGA   3236
+                     ...|.|..||      ||.||| |||        ||.         |||.
+c81784-73434    1177 TGTGTGTGTG------TGTGTGTGTG--------TGT---------GTGT   1203
+
+c50265726-502   3237 G-GAGCTCTGCCATGGTGCTCATGCTAAAGTGGCATCGACTCCCTTCCTG   3285
+                     | |.|.|||.|                   .|||.||||.||||      
+c81784-73434    1204 GTGTGTTCTAC-------------------AGGCCTCGAGTCCC------   1228
+
+c50265726-502   3286 TGGCGGGGCTCCCTGCCATGTGCCAGCTCTGTGCTGGCCACATGACATGC   3335
+                                          |||.||.|||.|||||..|..||   || 
+c81784-73434    1229 ---------------------GCCTGCACTGAGCTGGAGATGTG---TG-   1253
+
+c50265726-502   3336 TATCTAATTTAATCTTCCCAGTGGCCCTGTTTTACAGATGAGGAAACTGC   3385
+                                        .||.|..|||       |.||.|.|||  ||
+c81784-73434    1254 -------------------TGTTGGACTG-------GTTGTGTAAA--GC   1275
+
+c50265726-502   3386 TGATGCTCAGAGAAGTTAACTGTCTTGCCCAAAGTCACAGAATTAGTACC   3435
+                         ||||.|             |||.||                     
+c81784-73434    1276 ----GCTCGG-------------CTTACC---------------------   1287
+
+c50265726-502   3436 TGGTAGATCCAGGATTTTACCCTAGACCAGTCTTACTTCACAGGCTGTGC   3485
+                         |||||.....||..|||.|...|||               |.|.||
+c81784-73434    1288 ----AGATCATTACTTACACCATCATCCA---------------CAGAGC   1318
+
+c50265726-502   3486 CGTTTCTCCTACCCTCTGTCACCTCTACTGGTGGGTGCCTGAATGTGCCT   3535
+                                               |||||.||..|             
+c81784-73434    1319 --------------------------ACTGGAGGAGG-------------   1329
+
+c50265726-502   3536 GGCTAAGCCTGGGCCCCTAGCATTGCCTGTCTGGCTCCACACCCCCACAC   3585
+                         ||..|||                   |.|| |.|||||.|.|||||
+c81784-73434    1330 ----AATACTG-------------------CAGG-TACACACACACACAC   1355
+
+c50265726-502   3586 AAGCTGTGTCTTCCCTCTCCCTGCTTGGGGCATTTGTGTTCTGAACCACA   3635
+                     |           |.|.|.|.|                      |..||||
+c81784-73434    1356 A-----------CACACACAC----------------------ACACACA   1372
+
+c50265726-502   3636 CATGTTTAGAGGCTCTTCCTGAGGCCAGCTTGAGGTTTGCCTTCATCATT   3685
+                     ||                      |||                ||.||  
+c81784-73434    1373 CA----------------------CCA----------------CAACA--   1382
+
+c50265726-502   3686 CCCAAAGAACTTTTGACTTCAATGTGACAAAAAGGCCAGGCGCGGGGGCT   3735
+                                                                     ||
+c81784-73434    1383 ------------------------------------------------CT   1384
+
+c50265726-502   3736 CACACCTGTAATCCCAGCACTTTGGGAGGCCAAGGCAGGTGGATCACCTG   3785
+                     ||||||  ..|.|.||.|||        .|...|.|   |.|||      
+c81784-73434    1385 CACACC--ACAACACAACAC--------ACATTGAC---TTGAT------   1415
+
+c50265726-502   3786 AGGTCGGGAGTTCAAGACCAGCCTGACCAACATG-GAGAAACCCCGTCTC   3834
+                     |||||     ||.|..|.|.|..||||     || |.|.      ||.|.
+c81784-73434    1416 AGGTC-----TTGATAATCTGTTTGAC-----TGTGTGT------GTGTG   1449
+
+c50265726-502   3835 TACTAAAAATACAAAATTAGCTGGGCATG-GTGGCACATGCCTGTAATCC   3883
+                     |.                   ||.|..|| |||     ||..|||.    
+c81784-73434    1450 TG-------------------TGTGTGTGTGTG-----TGTGTGTG----   1471
+
+c50265726-502   3884 CAGCTACTTGGGAGGCTGAG-GTAGGAGAATCGCTTGAACCCGGGAG-GC   3931
+                             ||.|.|..||.| ||..|.|..| |..||.....|.|.| |.
+c81784-73434    1472 --------TGTGTGTGTGTGTGTGTGTGTGT-GTGTGTGTGTGTGTGTGT   1512
+
+c50265726-502   3932 GGAGGTTGCGGTGAGCTGAGATAGCGCCGTTGCACTCCAGCCTGGGCAAC   3981
+                     |.||..|.||||.|| ||||          ||||||     ||||.|   
+c81784-73434    1513 GTAGAGTACGGTCAG-TGAG----------TGCACT-----CTGGTC---   1543
+
+c50265726-502   3982 AAGAGCGAAACTCCATCTCAAAAAAAAAAAAAAGTGACAAAAATATGCCT   4031
+                         ||....|||                                 ||..
+c81784-73434    1544 ----GCTCTGCTC---------------------------------GCTG   1556
+
+c50265726-502   4032 AGAGGCAGGGGTGGGAAAATATTCAAACTCAGAAAGTGATGGCAATTTTG   4081
+                     .||||.|||            ..|.||..|.|.|..|||.|         
+c81784-73434    1557 CGAGGAAGG------------ACCGAATCCTGCAGATGAAG---------   1585
+
+c50265726-502   4082 ACTTTTTTTTTTTTTTTTTTTTGAAGCAATAGAGACAAGGTCTTGCTATG   4131
+                                        ..||||||.|                     
+c81784-73434    1586 -------------------AGTGAAGCCA---------------------   1595
+
+c50265726-502   4132 TTGCCCAAGCTGGTCTCCAACTC--------CTGGGCTCAAGTGATCCTC   4173
+                        |.||       |.||.||.|        |||.||||||      |||
+c81784-73434    1596 ---CACA-------CACCGACACTGACGAGTCTGTGCTCAA------CTC   1629
+
+c50265726-502   4174 CTGCCTCGGCCTTCCAAAGTGTTGGGATGAGAGGCCTAAGCCACTACGCC   4223
+                     ..||||                       .|.|||.||.||..      |
+c81784-73434    1630 TCGCCT-----------------------GGTGGCGTACGCAT------C   1650
+
+c50265726-502   4224 TGGCCATGAGGGCAATTTCATACAAAGCCACTCATCTCTTTGAC-CATTC   4272
+                     ||.|||    ||.|....||.|||.|.||||.|| |.|    || ||..|
+c81784-73434    1651 TGACCA----GGTACACACACACACACCCACACA-CAC----ACACACAC   1691
+
+c50265726-502   4273 AGCCTATTTCACAAGCATTTTTTGAAAATGTCAATATCAGTAAGGCTTTA   4322
+                     |..|.....||||.|||              |     |.|   .||||.|
+c81784-73434    1692 ACACACACACACACGCA--------------C-----CTG---AGCTTCA   1719
+
+c50265726-502   4323 CGGAGGCTAGATCCTGATAAGATT-ATCTCCTGGATTTTATTCTGTAAAA   4371
+                          ||..|..|.|.|.|.|..| |.|| ||||.||   ..||||....
+c81784-73434    1720 -----GCAGGTACATCACATGCCTGAGCT-CTGGCTT---CACTGTGTGG   1760
+
+c50265726-502   4372 TGTAATC--TGCTGAGGGGCTAACTGTAATCTGGGAGTGAGACTGAAAGC   4419
+                     .||.|||  |||||.|.|      ||| .|.||.|.|||.|..||...|.
+c81784-73434    1761 AGTTATCAGTGCTGTGTG------TGT-GTGTGTGTGTGTGTGTGTGTGT   1803
+
+c50265726-502   4420 AACTGTCAGAAGAGGTGGAAATGAGCTGATTCATTTGATCAAGAGGAATT   4469
+                     ...|||..|.....|||....||.||.|..|||||.| || ||.||    
+c81784-73434    1804 GTGTGTGTGTGTGTGTGTGTGTGCGCAGGCTCATTCG-TC-AGTGG----   1847
+
+c50265726-502   4470 CCAGCAGTTGCTGTGGGTATGGTCGGTGAGGCTCATTTCTGGAAAGAGGT   4519
+                       ||.||  ||   ||||.||.|        |||   |||||..| ||.|
+c81784-73434    1848 --AGAAG--GC---GGGTCTGAT--------CTC---TCTGGTGA-AGAT   1878
+
+c50265726-502   4520 CTGTTTGTTTTTGATAAGGGCTCTTCTG--GCTATTTTATCTTATTTATC   4567
+                     |.|.||..|...||           |||  |||.|.||.||       ||
+c81784-73434    1879 CCGCTTCCTGCAGA-----------CTGACGCTGTGTTTTC-------TC   1910
+
+c50265726-502   4568 TTACAAGAACAGACTATTGTCTCTTGATAGAGCTAGGAGGTAGAAGCCCT   4617
+                      |.|..|.|.|.|||.|         ..||.||...|.||..||.|.||.
+c81784-73434    1911 -TGCGTGGAGAAACTCT---------GCAGCGCGCCGTGGAGGAGGACCG   1950
+
+c50265726-502   4618 TCTCTGGGGTTTCCAAAATACTG-TCACTAAGGACAGTGATAATGATGGT   4666
+                     .|...|.||          |||| ||.||       |||||..|||....
+c81784-73434    1951 GCGGAGCGG----------ACTGATCCCT-------GTGATGGTGACACA   1983
+
+c50265726-502   4667 CAAATCTCTCA-ACTCATCTCTCAGGCCACACCAGCCTCTGAGAGCTGGC   4715
+                     ||.| |.|.|| ||.|| |.|.||   |||||...|..|         ||
+c81784-73434    1984 CACA-CACACACACACA-CACACA---CACACACACAAC---------GC   2019
+
+c50265726-502   4716 CTGAAAGCAGTTGGCCCTTTGCTTACTCATTTTGCTCAGTGCCTCATTGA   4765
+                     .|.|.||.||     .|||..|..|||||   ..|.||    |.|     
+c81784-73434    2020 ATTACAGGAG-----ACTTAACACACTCA---AACACA----CAC-----   2052
+
+c50265726-502   4766 AAACTGAATTAGTTTTTCTCTTCCTGCCACCACCTAGAAAATAAGAGAAG   4815
+                      |.|.||           |||.|...||.||||||         |.|   
+c81784-73434    2053 -AGCAGA-----------TCTGCACACCTCCACCT---------GTG---   2078
+
+c50265726-502   4816 AAAAACTCTCTTTCCCCTTTAATTCCAACCCTGGTTAGACAATCCTCATT   4865
+                                            ||.||.||| ||..|....|||     
+c81784-73434    2079 -----------------------TCTAAGCCT-GTGTGTGTGTCC-----   2099
+
+c50265726-502   4866 TACTTTTCATGAGAGAGAGA----GAGCATCCCCACGGGAAAAGTCAGGA   4911
+                          |.||.|.|.|.|.||    |.|| |||.|..|.|.....||    
+c81784-73434    2100 -----TGCAGGTGTGTGCGACGCTGGGC-TCCACTGGTGTGTGTTC----   2139
+
+c50265726-502   4912 CACCACCCTGCTCGGGTG-TCTGGGCTTC---------TGCCTCATTGCG   4951
+                     |..|..||..|| ||.|| .||||||..|         |||||||     
+c81784-73434    2140 CTTCGACCGTCT-GGATGAACTGGGCCCCGTCTGTAAGTGCCTCA-----   2183
+
+c50265726-502   4952 GTCACCTGTCCCTATGGGGTATGTGTGACCACAGGGATGTGGCCTCTCTC   5001
+                     |.|. ||||...|.|.|.||.||||||          ||||   |.|.|.
+c81784-73434    2184 GACT-CTGTTTGTGTAGTGTGTGTGTG----------TGTG---TGTGTA   2219
+
+c50265726-502   5002 TGTCAGCCCCAGTTCTCGCCTGCAAAACAGAGATAATGTGTAGGTCCTAC   5051
+                     |||                          |.|.|..||||          
+c81784-73434    2220 TGT--------------------------GTGTTTGTGTG----------   2233
+
+c50265726-502   5052 CCCATAGGGTCCTGTGAGAAGTAAGTAAGAGAAGGCTTGGAGAGCAGGAG   5101
+                     .|.|||.|||..||||....||...|||..||. .||..|.||       
+c81784-73434    2234 ACTATATGGTTGTGTGTTTTGTGTTTAATTGAT-ACTATGTGA-------   2275
+
+c50265726-502   5102 ATGTGGTTATTACCGATCATGACTCTTACATGGTGAAAATTG-----GAG   5146
+                     .||||.||.|.  ||||..||     |...||.|.||.||||     |..
+c81784-73434    2276 TTGTGTTTGTG--CGATTGTG-----TGTTTGTTTAAGATTGTGTGTGTT   2318
+
+c50265726-502   5147 GAAGAGGTTTGATTCTCTGAGTCAAGTCAG-GATATGTGATGTGTCTGTC   5195
+                     ...|.||.||||.|.|.||..|...||..| |..||.|||| |||.||| 
+c81784-73434    2319 TGTGTGGATTGACTTTGTGTATTTTGTTTGTGTAATTTGAT-TGTGTGT-   2366
+
+c50265726-502   5196 ACCCACATGATTAGTTTACCGTTAATGTTAGAGCTTAACATTTCACACAT   5245
+                           .||.|...||||...|...||||...|||  .|.|.|     ||
+c81784-73434    2367 ------GTGTTGTTTTTATAATGTGTGTTTTTGCT--GCGTGT-----AT   2403
+
+c50265726-502   5246 TTCTTGCCCACGCCTCCACCCACACAACAACCCTAGGAGACAGGATTTAT   5295
+                     ||.|||                          .|.|.....|.|.||.||
+c81784-73434    2404 TTTTTG--------------------------ATTGATTGTATGTTTGAT   2427
+
+c50265726-502   5296 TTTACG-ATGAGAAACTGAGGTTGAGGGAGGTGCAGGAGAGGCTCCTGGT   5344
+                     |.|..| .||.|....||.|..||..||. ||||..||| |||..||||.
+c81784-73434    2428 TGTGTGTGTGTGTGTGTGTGTGTGTAGGT-GTGCGCGAG-GGCCTCTGGC   2475
+
+c50265726-502   5345 CTTATGGGGTCTGTACTGTAAACACTTTTTGAGACCTCCTTTTGAAAAAC   5394
+                     ...|||.||.|   .|||...||.||...|..|..|||||          
+c81784-73434    2476 TGCATGTGGAC---GCTGCGTACGCTGGCTCTGCGCTCCT----------   2512
+
+c50265726-502   5395 AAAAAAGAAGGAGGCCGGACACAGTGGTGCATGCCTGTAATCCCAGCACT   5444
+                                    |.|.| |.|.|.|||  ||   ||.|.||.|.|| 
+c81784-73434    2513 ---------------CTGTC-CTGAGCTGC--GC---TATTTCCTGGAC-   2540
+
+c50265726-502   5445 TTGGGAGGCTGAGGCGGGTGGATCATGAGGTCAGGAGTTCGAGACTAGCC   5494
+                        |||..|     |.|.|.|...||    ||    |||||.....|.||
+c81784-73434    2541 ---GGAATC-----CAGTTTGCAGAT----TC----GTTCGTCTTCAACC   2574
+
+c50265726-502   5495 TGGCCAACATAGTGAAACACTGTCTCTATTAAAAATACAAAAAATTAGCC   5544
+                     .|.|||    ||||.                                   
+c81784-73434    2575 CGTCCA----AGTGG-----------------------------------   2585
+
+c50265726-502   5545 AGGCATGGTGGTGGGCAC-----CTGTAATCCCAGCTACTTGGGAGGCTG   5589
+                         |||.||||  ||||     |||.|   ||..||.||    .|.|.|
+c81784-73434    2586 ----ATGCTGGT--GCACTTCGACTGCA---CCGCCTTCT----GGTCAG   2622
+
+c50265726-502   5590 AGGCAGGAGAATCTCTTGAACCTGGGAGCCAGGGGTTGCACTGAGCCAAG   5639
+                     ||.|||      |||.||||                              
+c81784-73434    2623 AGTCAG------CTCCTGAA------------------------------   2636
+
+c50265726-502   5640 ATGGCGCTGCTGCACTCCAGCCCTGGTGACAGTGCGAGAATCTGTCTCAA   5689
+                           |||||..|.|||  |.|.|.||...|||.|||..|.|||.|   
+c81784-73434    2637 ------CTGCTTTAATCC--CACAGATGTGTGTGTGAGTGTGTGTGT---   2675
+
+c50265726-502   5690 AAAAAAAAAAAAAAGAATGAATCTCAAAAGAGACCCACACAAATGGTATG   5739
+                                   |..||..|                       ||.||
+c81784-73434    2676 --------------GTGTGTGT-----------------------GTGTG   2688
+
+c50265726-502   5740 TTGGAGCTTAAGTTCATTAGCTTCATGGTAAATCTACACGGTCACACAGC   5789
+                     |..|.|..|..||||   ||||||      |.|||.|| |.|..||..|.
+c81784-73434    2689 TGTGTGTGTGTGTTC---AGCTTC------AGTCTGCA-GATATCAGTGT   2728
+
+c50265726-502   5790 TGGTTAGGGACTGAGGTGGGATGGGAACTTGTGTCCTTGGACTTAATTCT   5839
+                     ....|..|||||             .||   ||..| ..|||.|..|..|
+c81784-73434    2729 ATTATCAGGACT-------------TAC---TGATC-AAGACGTGTTGAT   2761
+
+c50265726-502   5840 TAGGCTCCTTATACTATACACACTGTCCAGGACAAGGTCCTTGCTC-TTG   5888
+                        |.||.||||               |||..|.||...|.||.|| |.|
+c81784-73434    2762 ---GATCATTAT---------------CAGTGCTAGAAACATGATCATAG   2793
+
+c50265726-502   5889 AAGGACTCTAAGTATGTGTGGACAGTAAAGAACAGGATGATGCCCTAAGA   5938
+                     |...||                  |||.|||.||.|| |..||.|||   
+c81784-73434    2794 ATAAAC------------------GTACAGATCAAGA-GCAGCGCTA---   2821
+
+c50265726-502   5939 TGTTATCAAATGAGTCCTCAGTAGAGTGAAACATCTAGAATTCTAGAGTT   5988
+                         |||   ||||    |||            .|||.|.|..||.||| 
+c81784-73434    2822 ----ATC---TGAG----CAG------------ACTACATTATTAAAGT-   2847
+
+c50265726-502   5989 CTATCGCTCAGGGAAGGGATCGAAGGGAGCTGTGGGAGCTGGGGGAGAGT   6038
+                               |.|...|..|....|.|.| ||||.|.| ||.|.|.|.||
+c81784-73434    2848 ----------GTGTGTGTGTGTGTGTGTG-TGTGTGTG-TGTGTGTGTGT   2885
+
+c50265726-502   6039 TCGAGGAGGAAATGAATATTTAGTAGCTTTCTAAGAACTGGCAGGTTTTG   6088
+                     .||..| ||..|.|||||....|.||||         |..|||       
+c81784-73434    2886 GCGCAG-GGTGAAGAATAAGATGAAGCT---------CCAGCA-------   2918
+
+c50265726-502   6089 GAAGGTCATGTCTTTATAGAGAGTGCCTTTCTATCAGGGGACACAGCATT   6138
+                                             |.|.|||  .|.|.|||| |.||..|
+c81784-73434    2919 ------------------------GACGTTC--ACTGTGGAC-CCGCTGT   2941
+
+c50265726-502   6139 GCTCAAAGACATAAATGCAGAAAGGAACAGGGCATGCTTGCAGAGCAGTG   6188
+                     .| |..|||||                                       
+c81784-73434    2942 AC-CTCAGACA---------------------------------------   2951
+
+c50265726-502   6189 AGATGAGGAGAGATGAGATAATCCATGAGGCCGATGAACCACCAGGGCTG   6238
+                                                    ||||  |.|.|||  .| |
+c81784-73434    2952 -------------------------------CGAT--AACTCCA--AC-G   2965
+
+c50265726-502   6239 CTTCTGAGTTCTGATGGGGGGCCCTTCCTGCCCACTCAGC-TCCTCCTTA   6287
+                     |..|.||.|||  ||||.|.||.||  |..|.|||.|.|| ||.||..|.
+c81784-73434    2966 CCACAGACTTC--ATGGTGCGCTCT--CATCACACACTGCATCATCTGTG   3011
+
+c50265726-502   6288 CATCCGGTTTTGATTGTGGGCTCAGGGCTTAGCCTGGAGGTCGGCCTCCC   6337
+                     ..|..|..|.||..||||.| |..|||.||......|.|||         
+c81784-73434    3012 TGTGTGTGTGTGTGTGTGTG-TGTGGGTTTGTTTATGTGGT---------   3051
+
+c50265726-502   6338 ATACGCTTGGTCTGGGCTCTCCTCTCTACCGTCTCCTTTCCTCACTACAT   6387
+                     .||...||.|..||          |..|..||||                
+c81784-73434    3052 TTATTATTAGGATG----------TAAATTGTCT----------------   3075
+
+c50265726-502   6388 TCCCAATGTGATGCTTAAGGACAGCTTTGAACCCATTCACCCAGACCCTC   6437
+                         |||||.|||..||.|..|...|||.|||.|..|...|.|.||    
+c81784-73434    3076 ----AATGTCATGGGTATGACCTTGTTTTAACTCTATATACTATAC----   3117
+
+c50265726-502   6438 TGAGTTGCATGCTCAGGGAGCTCAGTGCTCCATAAAACAAAAACAAAAGG   6487
+                                                     ||.|..|||.|.|.||.|
+c81784-73434    3118 --------------------------------TATATAAAATATATAATG   3135
+
+c50265726-502   6488 TGCCTTTTGCAAGAAACTGGATGAAACAAGTAGTCTGCTTTTCTGGAGCT   6537
+                     .|.||        ..|||||            |||.|     .|||.|  
+c81784-73434    3136 AGTCT--------CGACTGG------------GTCAG-----TTGGTG--   3158
+
+c50265726-502   6538 CACAGTCTGCCCTTCCTTTTTTTTTTTTGAGACGGAGTCTTGCTCTGTCG   6587
+                                            |||.||.|. ||||| ||||....||.
+c81784-73434    3159 -----------------------TTTCTGTGT-GGAGT-TTGCATGTTCT   3183
+
+c50265726-502   6588 CCCAG-GCTGGAGTGCAGTGGAGCGATCTTGGCTCACTGCAAGCTCAGCC   6636
+                     |||.| |.|||.|||    ||.   .||      |.|.|...|||     
+c81784-73434    3184 CCCCGTGTTGGTGTG----GGT---TTC------CTCCGGGTGCT-----   3215
+
+c50265726-502   6637 TCCCGGGTTCACATCATTCTCCTGCCTCAGCCTCCTGAG-TAGCTGGGAC   6685
+                       ||||.|||.|      |..|.|.| ||..|.|.||.| ||...|||| 
+c81784-73434    3216 --CCGGTTTCCC------CCACAGTC-CAAACACATGCGCTATAGGGGA-   3255
+
+c50265726-502   6686 TACAGGCTTCTGCCACCCCGCCTGGCTAATTTTTTTGGTATTTTTAGTAG   6735
+                      ||.|  .||..|.||    .||||||                   ||||
+c81784-73434    3256 -ACTG--ATCAACTAC----ACTGGCT-------------------GTAG   3279
+
+c50265726-502   6736 AG-ATGGGGTTTCACCATGTTAGCCAGGATGGTCTCAATCTCTTGATCTC   6784
+                     || |||         |.|||           ||                 
+c81784-73434    3280 AGTATG---------CGTGT-----------GT-----------------   3292
+
+c50265726-502   6785 GTGATCCACCTGCCTCGGCCTCCCAAAGTGCTGGGATTATAGGCATGAGC   6834
+                     |||.|.|| |||..|          ..|||..|||.||.|          
+c81784-73434    3293 GTGTTTCA-CTGAGT----------GTGTGTGGGGGTTTT----------   3321
+
+c50265726-502   6835 CACCGCACCCGGCCTGCCCTTCCTTTTATTGCTGGGCAGGGGCGGCATGA   6884
+                             ||.||                 .|||||..   ||.||..||
+c81784-73434    3322 --------CCAGC-----------------ACTGGGTT---GCAGCTAGA   3343
+
+c50265726-502   6885 GGGGTAAGTACTGGGGACTAATGTGAATACCACCCAGAATCCCACAACTG   6934
+                     .|||.|          .||..||||...|.||                |.
+c81784-73434    3344 AGGGAA----------TCTGTTGTGTTAAACA----------------TA   3367
+
+c50265726-502   6935 GGTTACTGTAGTGATTTTCCTTTTGCATATTTCCTTCTGGACTTTGCATA   6984
+                     .|.|.|..|||          ||.||  ..|||.|||||  ||.||    
+c81784-73434    3368 TGCTGCAATAG----------TTGGC--GGTTCATTCTG--CTGTG----   3399
+
+c50265726-502   6985 TATGAAAAGGCTCCACTGATGATCTAGCATAGGACATGGGCCACATTAGT   7034
+                      .|||       ||.|||||.|   |..||.|||| |..||        |
+c81784-73434    3400 -GTGA-------CCCCTGATTA---ATAATGGGAC-TAAGC--------T   3429
+
+c50265726-502   7035 GACAAGAACACCAGTGAACAAGTCTGATTTTCATGGAGTTATGTCACTTA   7084
+                     ||.||||..|..|.|||  |.|...||.|      ||.||||   ||.||
+c81784-73434    3430 GAAAAGATAATGAATGA--ATGAACGAAT------GAATTAT---ACATA   3468
+
+c50265726-502   7085 TTTCTGCTTAAAAGTGTCAGCCCATCTCTAGAGTGACACTTCACCTTGCC   7134
+                     |         ..||.|||  |.|||          |.||  |||.|    
+c81784-73434    3469 T---------GGAGGGTC--CTCAT----------AAAC--CACAT----   3491
+
+c50265726-502   7135 AGAGATGGTCTCTGGAGAAAGAAAGCCTGCTGGAAATGCCTCCTGGTGCC   7184
+                             .|.|                 |||.|||||.      |||  
+c81784-73434    3492 --------ACAC-----------------CTGTAAATGT------GTG--   3508
+
+c50265726-502   7185 AACTCTGTGCATGCTCTGCCTCCAGGTGGTACATTGGCAGAGCCCCCATA   7234
+                        |.||||..|||.|  ||||..|        |.||||||||...|| |
+c81784-73434    3509 ---TGTGTGTGTGCGC--CCTCTTG--------TGGGCAGAGCAAACA-A   3544
+
+c50265726-502   7235 TGCAC-GCCTACTACCCAGCCCTCACCTCTTGGCCCTCCCTGCTAGGAGA   7283
+                     |.||| ||.|..|||.|.|  .|||    ||.|||.|             
+c81784-73434    3545 TACACTGCTTCTTACACTG--ATCA----TTTGCCTT-------------   3575
+
+c50265726-502   7284 CATGCTGGCTGATGCCATCAACTGCTTGGGATTC-ACCTGGGTGAGTAGC   7332
+                              |.|....||.|..|..|||.||||. .|.||.|||.||.  
+c81784-73434    3576 ---------TAAAATTATAATATAATTGTGATTATTCTTGTGTGTGTG--   3614
+
+c50265726-502   7333 AACGGCTGTAACTACTCGCAATGGGGAACGTAGCAGGGAGTG-GTATCCT   7381
+                           |||              |.|...||....|.|.||| ||.|...
+c81784-73434    3615 ------TGT--------------GTGTGTGTGTGTGTGTGTGTGTGTGTG   3644
+
+c50265726-502   7382 AGGGCAGACATAT-TTTGTCTTGGTTTCTGAATATG-GCTCCACAATAAA   7429
+                     .|.|......|.| |.|||.|..||.|.||..|.|| ||..|||.     
+c81784-73434    3645 TGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGCAGCACT-----   3689
+
+c50265726-502   7430 TATTAATGAGGGCTATATTCTTTAAGCTTACGCTTTATTTTAATTTTCTC   7479
+                               |||......|..|.|||...|||||               
+c81784-73434    3690 ----------GGCAGATCCCCCTGAGCCGCCGCTT---------------   3714
+
+c50265726-502   7480 ATCACATCCTTTAACCCTATGGAATCACGAGTATTGATCC-----CATTT   7524
+                      ||.|..|||..|.  ||.|||..|   |.|..|.|.||.     |.|..
+c81784-73434    3715 -TCGCTCCCTCAAG--CTGTGGTTT---GTGATTCGCTCTTTTGGCCTGA   3758
+
+c50265726-502   7525 TGTAGGTGAAGAAA-----TCGAGGCTTAAGCAACTTATCTCCCCCAGAT   7569
+                     .|.||.||.||.||     .|||..|.|.||  |||...|.|.|.||   
+c81784-73434    3759 AGAAGCTGCAGGAACACATCCGACACGTGAG--ACTACACACACACA---   3803
+
+c50265726-502   7570 CACACAGCTCATAGAGACACAGATAAGACTTGGATACAGATCTGGTTATT   7619
+                     |||||| |.||.|.|.||.|||| ..|||.|||  ||||  |.|  |.||
+c81784-73434    3804 CACACA-CACACACACACTCAGA-GTGACGTGG--ACAG--CAG--TGTT   3845
+
+c50265726-502   7620 GCCACAGTTTGTGACCTTACCTAAGCAATTTGATGCCTATTGAGTCACCA   7669
+                     .|  |.||.|||||                ||||||.|            
+c81784-73434    3846 TC--CTGTGTGTGA----------------TGATGCAT------------   3865
+
+c50265726-502   7670 CTTCCTCTGTGCTC------TTGTATTTGAGTAGCTG---GAG-ATATGT   7709
+                      |||||.||.||||      |.|...|.|.|.|||||   ||| .|.||.
+c81784-73434    3866 -TTCCTGTGAGCTCAGGGCGTGGAGATGGCGAAGCTGTTCGAGTCTCTGG   3914
+
+c50265726-502   7710 CCTAAGACTTCCCTTAATAACCCCTTAAGCACC--ACTCAGCTTTAAATG   7757
+                     .|..|.||..|.|      ||.|.|..||..||  .|.||||       |
+c81784-73434    3915 TCAGAAACGACAC------ACACTTCCAGATCCCGGCGCAGC-------G   3951
+
+c50265726-502   7758 GTGCCAAAAGCCTTCCAGAACATCTTTTTATTTTAAGCCTGAACTCCTAT   7807
+                     |..|| ...||||       |.||.|.||.|     ||||||        
+c81784-73434    3952 GCACC-TCGGCCT-------CGTCGTCTTCT-----GCCTGA--------   3980
+
+c50265726-502   7808 GGGTGTGTGGGTGGGTGGGCGGGGGTATTCATATCTTTTCTAGGAAAACA   7857
+                     |||||.||                                    |||.||
+c81784-73434    3981 GGGTGAGT------------------------------------AAATCA   3994
+
+c50265726-502   7858 TCC--CCCTGGGCATTTGAGGACTTCTCAGCTATGTATTTTAGCGACTTG   7905
+                     |||  |||.|.|                |.|..||..||.|.|....|||
+c81784-73434    3995 TCCAGCCCAGAG----------------ATCATTGAGTTATTGATTATTG   4028
+
+c50265726-502   7906 GAGAACCAAATCCAAGCCAACCATTTCT-AGGGCTGTTTCTCCATAGAGC   7954
+                              |||  |||||       || |.|||  |||...||||.|  
+c81784-73434    4029 ---------ATC--AGCCA-------CTGAAGGC--TTTAAACATAAA--   4056
+
+c50265726-502   7955 CTTGGAGAATTCGCCTCATTGAGGGCAGCATGAATCCAAAACCCCACATT   8004
+                                              ||||.|.|...||.|.||       
+c81784-73434    4057 -------------------------CAGCTTCAGCTCAGAGCC-------   4074
+
+c50265726-502   8005 ATTTTCTCTTTTGGTTGACAGAGAGTGGACCAGGAGAGAGGCACGTGGCC   8054
+                         |||||     ||.|||.||||.||..|.||...|||   ||||   
+c81784-73434    4075 ----TCTCT-----TTAACACAGAGAGGGGCGGGGCTGAG---CGTG---   4109
+
+c50265726-502   8055 TAACATGACCCCTTCTCCAGAAATGTTCCCATTG-ACACCATCAGGGGCA   8103
+                     |..|.|||     |||.||.....|||..|..|| ||||..|.|..|||.
+c81784-73434    4110 TTGCTTGA-----TCTTCAAGCTCGTTAACTATGCACACAGTGATTGGCT   4154
+
+c50265726-502   8104 GACATGTTTCTGGAGCTCGTGGGGGCACCTCAGTG-CCCTGGGGCTGTGC   8152
+                     ||      |..||||     |||||      ||.| ||||||        
+c81784-73434    4155 GA------TGAGGAG-----GGGGG------AGGGTCCCTGG--------   4179
+
+c50265726-502   8153 AGTTTGAAGTTCCTTTTCCTTTCTCAGGCATCCAGCCCTGCGTGTACAGA   8202
+                                          ||||.||  |||..|       |..|||.
+c81784-73434    4180 ---------------------TCTCTGG--TCCGTC-------GATCAGT   4199
+
+c50265726-502   8203 GCTGGAGATGAACGTCATGGACTGGTTGGCAAAAATGCTGGGACTTCCAG   8252
+                     ||     ||                    |.|.|||.||           
+c81784-73434    4200 GC-----AT--------------------CTATAATTCT-----------   4213
+
+c50265726-502   8253 AGCACTTCTTGCACCACCACCCCAGCAGCCAGGGCGGAGGCGTCCTGCAG   8302
+                          ||.||                           .||||  |||..|
+c81784-73434    4214 -----TTATT---------------------------TGGCG--CTGATG   4229
+
+c50265726-502   8303 GTACCTCCCTTGGCAAAGCTT---CACCTAGCTTGGGGGCTAAGTAGCGA   8349
+                     .||           .||||||   |||                  ||.||
+c81784-73434    4230 TTA-----------TAAGCTTTTACAC------------------AGTGA   4250
+
+c50265726-502   8350 AAGACAAGCCAAACCCTAACCTGGCAATTCTCCCGTTCTCCATGGAGTTT   8399
+                     || .| .||||.||.|..||   .||   |.|.|...|.|         .
+c81784-73434    4251 AA-TC-TGCCACACACACAC---ACA---CACACACACAC---------A   4283
+
+c50265726-502   8400 CCCCCACATTACCCACACCGTCATCACCAACAGCACCATCATCACAGCTT   8449
+                     |.|.|||   ||.|||||...|| |||..||| |||...|| |||| |..
+c81784-73434    4284 CACACAC---ACACACACACACA-CACACACA-CACACACA-CACA-CAC   4326
+
+c50265726-502   8450 CCACCTCTACTCCCACCTCAGCTTCTGCTTCATTCACATGTACTGCTACT   8499
+                     .|||    ||.|.|||...|....|.||.| |.||.|||||    |||  
+c81784-73434    4327 ACAC----ACACACACAAAACAAGCAGCAT-AATCTCATGT----CTA--   4365
+
+c50265726-502   8500 TCCTTTGAAAGAAATTAAAGAGCCAACACATGATCACATTTCCAGTATGA   8549
+                            ||.||    ||||        ||.|||.|         |.|..
+c81784-73434    4366 -------AAGGA----AAAG--------CAAGATTA---------TTTAG   4387
+
+c50265726-502   8550 CTTGATTCAGGTTTCTTAGTCTATAATCTGACAATTCCTTTTTGGTGTCC   8599
+                     ||.|.|||                ||.|..|.|.|..||||.|..||.|.
+c81784-73434    4388 CTAGTTTC----------------AAACAAAAACTCACTTTATTTTGACT   4421
+
+c50265726-502   8600 CATTTTGTATCTCACGGTAAAAGGGGAAAGGAGAAGGCAAGGAGAGGACT   8649
+                     ||  ||...|||                  |.|||  ||||...|||..|
+c81784-73434    4422 CA--TTAATTCT------------------GCGAA--CAAGACTAGGTTT   4449
+
+c50265726-502   8650 TCTCTTTCTCTCCCTGCTAGGTTCAGGAG-ATCC-CTTGCAGTGAGAGCA   8697
+                     |.|..|....|.|..|||..|..|.|||| |||| |.|||||.|.||||.
+c81784-73434    4450 TGTAATATAGTTCAGGCTCAGCGCGGGAGCATCCTCCTGCAGGGGGAGCT   4499
+
+c50265726-502   8698 ATTAACAGCATAAACTGATTAACGGTATCCTCTGACCCTATCTTCTGGAT   8747
+                     ||||                             |||            ||
+c81784-73434    4500 ATTA-----------------------------GAC------------AT   4508
+
+c50265726-502   8748 ACTTGTCAAATTATGGTTCTTCAAATATTTCTTTTTTTCAAGAGTAGTGC   8797
+                     ||                ||.|.||.|.|.||.||||||          |
+c81784-73434    4509 AC----------------CTGCCAACACTCCTGTTTTTC----------C   4532
+
+c50265726-502   8798 CATGGAGTGGAGCTTTCTGGGTGCCTCCCATGGACCACACACATTGTTAG   8847
+                     |                 |||||.|||||.|           ||      
+c81784-73434    4533 C-----------------GGGTGTCTCCCGT-----------AT------   4548
+
+c50265726-502   8848 GTGCTTTTGCATCTATAAATCCTTGACGTTCATGAGGGCTTGGTTCTAAG   8897
+                                                 ||||    |.|.||  |||...
+c81784-73434    4549 ----------------------------TTCA----GACCTG--TCTCCC   4564
+
+c50265726-502   8898 ACCTTTGAGATTCCTCAGATTCTTGAATTCTACTTTAATGTATGTTTCCT   8947
+                     |||       ..||||                               || 
+c81784-73434    4565 ACC-------ACCCTC-------------------------------CC-   4575
+
+c50265726-502   8948 GGTTTTATAATCTATGAGACAGAGATAATAATACTATTTCCCTCAAAGAG   8997
+                      |||||.|                          ||||||.|.|    .|
+c81784-73434    4576 -GTTTTCT--------------------------TATTTCTCCC----GG   4594
+
+c50265726-502   8998 TATATGCAAGGATTCAATGAATTCTTTTTTTAAATAAAAATCGTGGCTGG   9047
+                     ||.|..||                                 |||      
+c81784-73434    4595 TAAACTCA---------------------------------CGT------   4605
+
+c50265726-502   9048 ACATGGTGACTCACCCCTGTAATCTCAGCACATTGAGAGGCTGAGACAGA   9097
+                      .|||...||.|||||||.|..||                ||.||..|..
+c81784-73434    4606 -AATGTCAACCCACCCCTCTGGTC----------------CTTAGCAATT   4638
+
+c50265726-502   9098 TGGATCACTTGAGCCCAGGAGTTCAAACCAGCCTGGGCAACATGGTGAAA   9147
+                     |||..|     ||.||..|     |||||  ||.|||             
+c81784-73434    4639 TGGTAC-----AGTCCGTG-----AAACC--CCCGGG-------------   4663
+
+c50265726-502   9148 CCTGATCTCTCCAAACAAACAAAATTAGCTGGGTGTGGTGGCATGTGCCT   9197
+                            ||.||     |||...|.||.| ||.|..|.|.||||..||  
+c81784-73434    4664 -------TCGCC-----AACTTTAATATC-GGATCCGATCGCATCGGC--   4698
+
+c50265726-502   9198 GTAGACCCAGCTACTTGGGATGCTGAGGTAGGAGGATTGCTTGAGCCCAG   9247
+                         ||||||.|.||   ||  |.|.|.||....|| ..|.|.|.|||.|
+c81784-73434    4699 ----ACCCAGTTCCT---GA--CAGTGTTATTCAGA-CACCTCATCCCCG   4738
+
+c50265726-502   9248 AAGATTGAGGCTGCAGTGGGCTATGATTGTGCCACTGCCCTCCAGCCTGG   9297
+                     ||                             ||....|||.||.||||  
+c81784-73434    4739 AA-----------------------------CCTAAACCCCCCGGCCT--   4757
+
+c50265726-502   9298 GCGACAGTGTAAGACCTTG--TCTCAAAAAATAAAAAAATTGCCATGT-T   9344
+                                   ||..|  |.|||...   |.|||..|||.||.|| |
+c81784-73434    4758 --------------CCCGGATTTTCAGGG---ACAAATGTTGGCAGGTAT   4790
+
+c50265726-502   9345 GCTCTGAGATGAGAACCAGGAAGTTCACTAGGTCCTCTTGCTAGCTAAGT   9394
+                     |||.|.||  |.|..|..|||||.||||                      
+c81784-73434    4791 GCTATAAG--GTGGTCATGGAAGGTCAC----------------------   4816
+
+c50265726-502   9395 GACTCCCTCTCTCACTGCAGCCTTGCAGCAAGATTAAAATCTGAACCT--   9442
+                               |||||||      .|..|.|||    .|.|||||.|.|  
+c81784-73434    4817 ----------CTCACTG------AGAGGGAAG----GAGTCTGAGCTTGT   4846
+
+c50265726-502   9443 -CGGAAGAAAGACAAATTGCAGCATGTTGTGGACATTTTGGATTGTCAGC   9491
+                      |||.||...||..|.||.|.||.|      |||       ||.||||| 
+c81784-73434    4847 GCGGGAGGTTGAACAGTTCCGGCTT------GAC-------ATAGTCAG-   4882
+
+c50265726-502   9492 AAATAGTTACAACTTCAGATATCATATTTGGGAGAACATGCTAAATGTCT   9541
+                          |.| ||.|||||     ||                        |.
+c81784-73434    4883 -----GCT-CACCTTCA-----CA------------------------CA   4897
+
+c50265726-502   9542 GCGGTACATGATCTTGCTTTTCATCTGATTATCTCAGGAACCCTGCAGGT   9591
+                     ||       ||||..|||.|.||.|     |||||..|||   .||.|| 
+c81784-73434    4898 GC-------GATCAGGCTCTGCAAC-----ATCTCCAGAA---GGCTGG-   4931
+
+c50265726-502   9592 GAATAGTACCATTCCCCAATGTTTTGAGATAAGAGCACTGAAGTTCAGAG   9641
+                             .|..|||.|.|                |.|||.||       
+c81784-73434    4932 --------ACTCTCCTCTA----------------CTCTGGAG-------   4950
+
+c50265726-502   9642 AGATTAAATAATTTGCCCTAGCTTACACAGCTGATAAGCGGAAGAACGAG   9691
+                                 |||||...|.|.  |.||.||||..||.|..    |.|
+c81784-73434    4951 ------------TTGCCTATGGTG--AGAGGTGATGGGCTGGT----GTG   4982
+
+c50265726-502   9692 GATTCAAACTGATGCCTGTCTAAATCCAAACCATGCTTTCTCCTGTATCG   9741
+                     |..|||.|  |.|.||...||.|. |||   ||||..||....|..||.|
+c81784-73434    4983 GGCTCATA--GCTCCCCAGCTCAG-CCA---CATGTGTTGGAGTTGATGG   5026
+
+c50265726-502   9742 TCAGCCATGTGAACTTGAGTTAGTCCCATCACCTCTCTGAGCATCACTCT   9791
+                     ..||   .|||||...|||.       .|||||||.|||.|  |..||.|
+c81784-73434    5027 AGAG---GGTGAAGGGGAGG-------GTCACCTCCCTGGG--TTGCTTT   5064
+
+c50265726-502   9792 CCTCATCTTAGTGTGACAAGAATCATAATTATCTCAAAGAGGTGTTGTG-   9840
+                                       |||.||       |||||.....|| ||||| 
+c81784-73434    5065 ------------------AGAGTC-------TCTCACTAGAGT-TTGTGC   5088
+
+c50265726-502   9841 AGGAGCAAGTAGAATGCCAGAAAGTGTTTTGTAAACTATGAATTGCAATA   9890
+                     ..|||||         ||||                            ||
+c81784-73434    5089 TTGAGCA---------CCAG----------------------------TA   5101
+
+c50265726-502   9891 CAGATGGAAGGTGTTGTTACCATTATTATTATTTTTAAAAACAGGGCCTG   9940
+                     ||||           ||..||        |..||            ||||
+c81784-73434    5102 CAGA-----------GTAGCC--------TGCTT------------CCTG   5120
+
+c50265726-502   9941 GTTCTGTCTCCCAGGCTGGAGTGCAG--TGGAGCCATCATGGCTCACTGC   9988
+                     |   .||   ||..|...|.||||.|  .||.||.       ||.||||.
+c81784-73434    5121 G---AGT---CCTTGAGAGGGTGCTGGAAGGTGCT-------CTGACTGG   5157
+
+c50265726-502   9989 AGCCTCCATC--TC--CTGGGCCCAAGCAATCCTCCAACCTCAGCCTCCC  10034
+                     .|.|||||||  ||  |||||     |||   ||.||||     .|.|.|
+c81784-73434    5158 GGACTCCATCATTCCACTGGG-----GCA---CTTCAAC-----ACACAC   5194
+
+c50265726-502  10035 ACGTAGCTGGGACTACAGGTGTGCACCACTACACCTGGCTTTTTGTTTTT  10084
+                     |.|     ||.|.|....|||         |.||||||            
+c81784-73434    5195 ATG-----GGAAATGACAGTG---------ATACCTGG------------   5218
+
+c50265726-502  10085 TGTTTTTTTTGTAGAGACAGGGTCTCACTATGTTGTCCAGGCTGGTCTCA  10134
+                                 ||||.||       ||       |||||.|||   ||.
+c81784-73434    5219 ------------AGAGGCA-------AC-------TCCAGACTG---TCT   5239
+
+c50265726-502  10135 AACTCCTGGACTCAAGGGATCCTCCCAAAGTGCTGGGATTACAGGTGCGA  10184
+                     ..||.|.||    |.||||..|      ||..|      ||||   .|||
+c81784-73434    5240 GGCTTCAGG----AGGGGAAGC------AGATC------TACA---CCGA   5270
+
+c50265726-502  10185 GCCACTGCACCCAGCTGATTATTATTATTATTATGCTACATACTTCTTTA  10234
+                       |||||....||||.||..|..|        ..|||.|..||.||    
+c81784-73434    5271 --CACTGTTTACAGCAGAAGAGGA--------GAGCTGCTGACCTC----   5306
+
+c50265726-502  10235 CATAAATAGCTTTCTTTTTATGGAGTAACTCCCAGGCACTTAATATCTGT  10284
+                     ||                 .|||||...||....|||..|..|      .
+c81784-73434    5307 CA-----------------CTGGAGATGCTGTTGGGCGGTGGA------A   5333
+
+c50265726-502  10285 GGGATCTGGTCCACACCACTCTCCATGACAGTGTCTGCCAGGCATTTTTA  10334
+                     ||.||...|||..    |.|||||   .||||..|||.|.|||       
+c81784-73434    5334 GGAATAATGTCAG----AATCTCC---TCAGTCACTGGCTGGC-------   5369
+
+c50265726-502  10335 GCAGGATTCTATCAGCTGTAGGTCACTTGAAGATTTCAAGAAGCAAAGAC  10384
+                          .|||.||..|     ||..||    |||..|...||.||      
+c81784-73434    5370 -----CTTCCATTGG-----GGAAAC----AGAGATGGGGATGC------   5399
+
+c50265726-502  10385 ATCAAAGACTGGGTGAATGAATGATAAGGAACCATAAAGACTCCTGTGAA  10434
+                         |.||||||             |...|.||||.|.|....|||   |
+c81784-73434    5400 ----AGGACTGG-------------ACTCACCCATCACGCAAGCTG---A   5429
+
+c50265726-502  10435 GTTCCTGAGGTGGCCCCGAAGATTTCCACAATCATGGCCAGAGCAAAATC  10484
+                     |...||||||..| .|.||||.  |||.||.|    |.||.|||      
+c81784-73434    5430 GGCACTGAGGGAG-TCTGAAGC--TCCGCAGT----GGCAAAGC------   5466
+
+c50265726-502  10485 CTACCCAACCCTTGTTTGGATAATCTATACTCCCATCCTGGGAAGCAGTT  10534
+                                                                |||.||.
+c81784-73434    5467 -------------------------------------------AGCGGTG   5473
+
+c50265726-502  10535 AAAGGGATGCTCTCCATTTCATAGACAGAAAAGAGTCTTCTGGAGGGGAA  10584
+                     .|.|.|||||.|.|  |.||.|  .|       |||| ||||||.|    
+c81784-73434    5474 GAGGAGATGCACAC--TGTCCT--CC-------AGTC-TCTGGATG----   5507
+
+c50265726-502  10585 ATGT-TAGCCCAAGGTCACAAGAGCTATTGACAACTAAATGGGCCCAAGT  10633
+                     .||| ..||.|     |.|.|||   ||.|.|||||.   |||.....||
+c81784-73434    5508 TTGTGCGGCAC-----CTCTAGA---ATGGGCAACTG---GGGTGGTGGT   5546
+
+c50265726-502  10634 CACCAGCCTCTCACACAGGCCAGGATCCTCTCTTCCTGGGGACTCAAACT  10683
+                     ..|||   |.||.   ||....||..||.|        .|||.|..|.||
+c81784-73434    5547 TCCCA---TTTCT---AGTTAGGGGACCAC--------AGGATTTCATCT   5582
+
+c50265726-502  10684 CCATATCCATTTGTGTAATAAGCTGAGAGTTCTTCTTTTAAATATGTTTT  10733
+                     |            |||.||..||.|| .|.|.||||.||.     |.|| 
+c81784-73434    5583 C------------TGTTATTTGCAGA-TGATGTTCTGTTG-----GCTT-   5613
+
+c50265726-502  10734 ACATGGGGAGCAAACACATCCAGGAGGGACAGAACATTCTCT-TTTTGGT  10782
+                      |||.||        ||||   ||||.|.|||  |||.|.|| ...||||
+c81784-73434    5614 -CATCGG--------ACAT---GGAGCGTCAG--CATGCACTGGAATGGT   5649
+
+c50265726-502  10783 TT-CTGTGGCCTCTGTAATAGAGAGGCTGGTATTAGGTGCAAACTTATTT  10831
+                     || |||      ||| |.|...|.|.|.||.||.||...| |.||..|  
+c81784-73434    5650 TTACTG------CTG-AGTGTCGTGACAGGGATGAGAATC-AGCTCCT--   5689
+
+c50265726-502  10832 TAGAAGGCAGAATAGGAATGAAAGTTGGGGAGGGACATGG-GCACCCTGG  10880
+                            |..|||.              .|||.|.||||| ||.||    
+c81784-73434    5690 -------CCAAATC--------------TGAGAGCCATGGTGCTCC----   5714
+
+c50265726-502  10881 GCAGGAGGAGCTGTGTATTTCCTTCTGTGAATAGCTATGACACACACATA  10930
+                     ||.||| ||...|||..||.||.||              || ||..|.|.
+c81784-73434    5715 GCTGGA-GAAAGGTGGCTTGCCATC--------------AC-CAGGCTTG   5748
+
+c50265726-502  10931 CACAAACACATACACACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGA  10980
+                     ...|||..|       |.||| |...|||....||.     |....|.|.
+c81784-73434    5749 AGGAAAGTC-------CTCAG-GCTTGAGTTCAAGT-----ATCTTGGGG   5785
+
+c50265726-502  10981 GAGAGAGAAAAAACTAGA-AAGCCTGGGGAAATTTGGCAAGAGAATACAG  11029
+                     ....|...|..|.||||| |||..|||        .|||.||||.|   |
+c81784-73434    5786 TCTTGTCCATGAGCTAGAGAAGGATGG--------AGCATGAGATT---G   5824
+
+c50265726-502  11030 AAAGGCTGCCATGATAATCCTTTTCCC---CTGCAGAGCACGGTCAGTGA  11076
+                     |.||||.|..||| |..||..|...||   ||||.|.|        ||||
+c81784-73434    5825 ACAGGCGGTGATG-TGGTCAATGCACCAGACTGCTGTG--------GTGA   5865
+
+c50265726-502  11077 ATCCACTTTGATTGCCCTGCTG-GCAGCAAGGAAGAACAAAATCCTGGAA  11125
+                     |       .||       |||| ||.|.||||.|.|.||     ||.|| 
+c81784-73434    5866 A-------GGA-------GCTGAGCCGAAAGGTAAAGCA-----CTCGA-   5895
+
+c50265726-502  11126 ATGAAAACGTCTGAGCCCGATGCTGATGAGTCCTGCCTAAATGCCCGACT  11175
+                                ||..||.|.            |.|.|||.|| .||.|||
+c81784-73434    5896 -----------TGTACCAGT------------CAGTCTAGAT-TCCTACT   5921
+
+c50265726-502  11176 CGTGGCCTATGCCTCTGACCAGGTGAGT--TGCCCGACGCAGGACAGCCC  11223
+                     | |..||||||..|.|||.|. .||.||  |||||  .|.|||.|||...
+c81784-73434    5922 C-TCACCTATGGTTATGAGCT-TTGGGTCATGCCC--AGAAGGGCAGGAT   5967
+
+c50265726-502  11224 TTCGGGTTGGTGCTTGGCTTCTGGAATCTTGGTCCTTGAGCAATTTTTTT  11273
+                     .|||..|....||  ||   |||.||||..|.|||||   ||.....|..
+c81784-73434    5968 CTCGAATACAAGC--GG---CTGAAATCAGGTTCCTT---CACAGGGTGG   6009
+
+c50265726-502  11274 CTAGACGTG--AGTAC-GCTGGGGTTCTGAGCAGCTCAG--ACATGGGAG  11318
+                     |..|.||..  ..||| |.|.|||   ||||.|||||.|  ||.||||||
+c81784-73434    6010 CAGGGCGCACCCTTACAGATAGGG---TGAGGAGCTCTGTCACCTGGGAG   6056
+
+c50265726-502  11319 CTTGTCTCCAGCAACTGTAGGGAAGACAAGCTTCCAATGATCATATTTGG  11368
+                     .....||||| ||.|||.||       .|||..|..|.|.    .|||||
+c81784-73434    6057 GAATCCTCCA-CATCTGGAG-------CAGCAGCTGAGGG----CTTTGG   6094
+
+c50265726-502  11369 TTCCCGAGTCTTAGGCTTCAGCAGT-TTCT--GGGGGGTGATCATTCCAG  11415
+                          |..|||   |.|||.|..|| |.||  |||.||||    ||||||
+c81784-73434    6095 -----GCATCT---GATTCGGATGTCTACTGAGGGAGGTG----TTCCAG   6132
+
+c50265726-502  11416 GATGACTCTTTGCTGACAGGTTTCTGTGGCCCTTCTAGGCT-CACTCCTC  11464
+                     |    ||.|||.|||   ||     |.|.|||    |||.| |||.|   
+c81784-73434    6133 G----CTTTTTCCTG---GG-----GAGACCC----AGGATACACAC---   6163
+
+c50265726-502  11465 TGTGGAAAAGGCTGGTTTGATTTCCCTTGTGAAGATGAAATTTCTGCCTG  11514
+                       ||| |..|.||      ||.||.||            .|...||||||
+c81784-73434    6164 --TGG-AGGGACT------ATCTCTCT------------CTCATTGCCTG   6192
+
+c50265726-502  11515 TGGATGACAACTTCTCACTCCGAGGGGAAGCTCTTCAGAAGGCCATCGAG  11564
+                     .|      |||..||||         |||  ||.||.|.|||...|.|||
+c81784-73434    6193 GG------AACACCTCA---------GAA--TCCTCTGGAGGAGCTAGAG   6225
+
+c50265726-502  11565 GAA--GACAAGCAGCGGGGCTTGGTGCCCGTCTTTGTAAGTCAGGATATA  11612
+                     |||  |.|..||||.||.|                   ||||.||...|.
+c81784-73434    6226 GAAGTGTCTGGCAGAGGAG-------------------AGTCTGGGGTTC   6256
+
+c50265726-502  11613 TGCCTAAGCTTAGAATGATAGAACTTGGATGTGAGGAAGGAATTTTGGCA  11662
+                     | |||.||              ||                      |||.
+c81784-73434    6257 T-CCTGAG--------------AC----------------------GGCT   6269
+
+c50265726-502  11663 GAATTCAGGTAAGTAACATGCTGCACACAAAAGCAGAAAGGTCCTCCCAT  11712
+                     |..  |              |||||..|||              ||||  
+c81784-73434    6270 GCC--C--------------CTGCAACCAA--------------TCCC--   6287
+
+c50265726-502  11713 ACAGTATTTTACACATCATGAGGTGCTATCCATAGGTGTGTTATGGAATA  11762
+                      |||    .||..||    ||.|..|       |||..|| .||||||.|
+c81784-73434    6288 -CAG----ATAAGCA----GAAGAAC-------AGGGATG-GATGGAAGA   6320
+
+c50265726-502  11763 AATTTTGTGGGTCATAACCAGCATTAAAAAGAAATATAGTATAAAATATT  11812
+                     .      ||.|||   .|..||              |.||.||....|||
+c81784-73434    6321 C------TGTGTC---TCTTGC--------------TTGTCTATGTGATT   6347
+
+c50265726-502  11813 AGAGTGCACACATATAGCCAGAGTATGTATTGTTTTATGAAACTTTTTTT  11862
+                     .|||..|....|||||...||||||             |||||    ...
+c81784-73434    6348 TGAGAACTTTAATATATTTAGAGTA-------------GAAAC----AAA   6380
+
+c50265726-502  11863 TCAAATACACACGTATACATGTACTAGATTGTTATATAAAATGTGTTTCT  11912
+                     .||||.||.|                               ||.||....
+c81784-73434    6381 ACAAAAACTC-------------------------------TGAGTAGGA   6399
+
+c50265726-502  11913 TACGAGCCATGGTAAAACACAG--TCTGAAATATACACTGTTCTGGTGGG  11960
+                     .|.|.||      |||.|||||  ||||..  .|...|||.||    ..|
+c81784-73434    6400 AAAGGGC------AAAGCACAGATTCTGTG--TTGAGCTGATC----ATG   6437
+
+c50265726-502  11961 ATGGATGGGAGTAGATCACGTCTGTGGTGAAATCTTTCTCAGGCCAAATG  12010
+                     |||.|   |.|..|.||| |||||..|..||    |.||.||..||.|  
+c81784-73434    6438 ATGAA---GTGATGTTCA-GTCTGCTGCAAA----TGCTGAGAACACA--   6477
+
+c50265726-502  12011 TGTCACACGAGCCCACCCTCCTGTGTTAACTTGCCTTAATTTTCCCCTAG  12060
+                        |||||...|.|||.|.|                              
+c81784-73434    6478 ---CACACACACACACACAC------------------------------   6494
+
+c50265726-502  12061 GTCTGTGCAACACTAGGGACCACTGGGGTCTGTGCATTTGACTGCCTGTC  12110
+                              ||||      .|||   ||||.|||     ..|..||||| 
+c81784-73434    6495 ---------ACAC------ACAC---GGTCAGTG-----ATCCTCCTGT-   6520
+
+c50265726-502  12111 AGAGCTGGGCCCCATCTGTAAGTATCTTCCCTCTGTG-GCTAGGAAGACA  12159
+                          ||        .|||  ||.|.||.|||||||| ||     ||.|.
+c81784-73434    6521 -----TG--------ATGT--GTGTGTTTCCTCTGTGTGC-----AGGCC   6550
+
+c50265726-502  12160 AGGAATACATTTTTAAATGT-CTCCTAAAGCAAGGACCTGAAAC-CAGCT  12207
+                     .|||||.||.......|.|. ||.||.|.| |||   ||||..| |||| 
+c81784-73434    6551 GGGAATGCAGCGACGCAGGAGCTACTGAGG-AAG---CTGACCCGCAGC-   6595
+
+c50265726-502  12208 CTATGGGATTATTCTTGTTCCTCTTTGGTCAATGCAGAGACATGGGAAGA  12257
+                         ||    ...|.||||||    ||.||...||.|.|  .||||    
+c81784-73434    6596 ----GG----CCGCATGTTCC----TGATCCCGGCGGCG--GTGGG----   6627
+
+c50265726-502  12258 ACCACCAAAGGTCATGAGGGTCTCTTCCAGGGATCCCTGGACATTGCCTT  12307
+                      |.||||.             ||        |||||        |||..|
+c81784-73434    6628 -CAACCAG-------------CT--------GATCC--------TGCGCT   6647
+
+c50265726-502  12308 TCCCAGTGGTGTGACAAGAGTTAGAGGTGGCCTACCTTGCCTCCTGTCCT  12357
+                     ||     .|||||||    ||...||.||.|| |||..||......||| 
+c81784-73434    6648 TC-----AGTGTGAC----GTCGCAGCTGACC-ACCGAGCAGGACATCC-   6686
+
+c50265726-502  12358 AGGAGGCGACAGTAGGAGAGCCTTCGGTTTTCTCATCCTCTTACTTGTAT  12407
+                      ||.|| |||.|     ||||          |||||||            
+c81784-73434    6687 -GGCGG-GACTG-----GAGC----------CTCATCC------------   6707
+
+c50265726-502  12408 GTTGAACTTTACTTAATGCAGGCTATATCCAAAATACAGTGTGAATTAGG  12457
+                                     .||||||   |.||.                  |
+c81784-73434    6708 ----------------AGCAGGC---AGCCC------------------G   6720
+
+c50265726-502  12458 CTAGAATAGAAATGCTTTCTATTCTACCTTCAGAAAAGGAAAAGGGTAGG  12507
+                     |       ||..||||                                  
+c81784-73434    6721 C-------GAGGTGCT----------------------------------   6729
+
+c50265726-502  12508 GTAGGGGAAATCATGGGAGAGATTAAAGGCAGAGAGGAAACCCAGATGGG  12557
+                           |.|.||                 |.|||..|..||||.|..|  
+c81784-73434    6730 ------GCAGTC-----------------CGGAGTCGTGACCCGGCAG--   6754
+
+c50265726-502  12558 ACTGTTTAATCCCCAAGCAAGAAACCACTAGGAAAGAGAGATACCTTCCC  12607
+                                 ||.|||  |..|||.||  ||              |||
+c81784-73434    6755 ------------CCCAGC--GTGACCTCT--GA--------------CCC   6774
+
+c50265726-502  12608 TCTAACTTTTGTATTCGGTG-CACTGACATTGCTCTCTGTGCTGGTGGGA  12656
+                     |..|.|    |.|..|||.| |.|||||..|.|.|.|.|.||...||   
+c81784-73434    6775 TGAATC----GGAACCGGAGTCGCTGACCATCCACACGGAGCCCATG---   6817
+
+c50265726-502  12657 AATTGATTTCTGTGCCAGGATGTTCTAGGCTGAGGCCAAGAGGGTGCTGG  12706
+                              |||..||||        .|.||           |||||.  
+c81784-73434    6818 ---------CTGGACCAG--------CGACT-----------GGTGCG--   6837
+
+c50265726-502  12707 CCCTTTACCCAGTGGAAGAAAAAGGCAAGGGTGAGGCTTTGTAGACTTTC  12756
+                             ||||.||.|||.|..||                         
+c81784-73434    6838 --------CCAGGGGCAGAGACGGG-------------------------   6854
+
+c50265726-502  12757 CCATTCGGAGGTAATGATGCCTCCTTCAGCCCCACTTCTTCAAACTGACT  12806
+                     ||.|.||             |||.|.||||..||.|.|  ..|.||  | 
+c81784-73434    6855 CCGTCCG-------------CTCGTACAGCTGCAGTGC--AGAGCT--C-   6886
+
+c50265726-502  12807 CCACCTGCTCCCATCTCCACAC---CCCTCCGTTTCTCATTTAGCCAAAG  12853
+                     ||.||.||.|||.....|||||   |.|.|||...|.|     |||...|
+c81784-73434    6887 CCGCCAGCCCCCGGGCGCACACAGACACACCGGGACGC-----GCCTCTG   6931
+
+c50265726-502  12854 CACATCATCCT--TGCAGCCCACCACTCAGCTTGGCCAGGTGCGAGACAT  12901
+                     ||..|.||||.  .|||||||                  |.|||      
+c81784-73434    6932 CAGCTGATCCCGGAGCAGCCC------------------GAGCG------   6957
+
+c50265726-502  12902 CTTTCCCCACTTCATACCTCCCCTCCGGCCAGGTGATGTTTGCCTCCTCA  12951
+                          |||.|..||||                         |.|.|||  
+c81784-73434    6958 -----CCCGCAGCATA-------------------------GACGCCT--   6975
+
+c50265726-502  12952 GGTGCCCGTGAGGGGCTGTGGCTCCACATCGATGCTGCTTATGCAGGCAC  13001
+                                   ||||..|.||.|||.||    |||..|..|.|||.|
+c81784-73434    6976 --------------GCTGAAGTTCAACAGCG----TGCCGAGCCTGGCGC   7007
+
+c50265726-502  13002 TGCCTTCCTGTGCCCCGAGTTCCGGGGGTTTCTGAAGGGGATTGAGTATG  13051
+                     .|   ..|||.||.|.|.|   |||      |               |||
+c81784-73434    7008 AG---GTCTGGGCGCAGTG---CGG------C---------------ATG   7030
+
+c50265726-502  13052 C--CGACTCCTTCACCTTTAATCCTTCCAAGTGGATGATGGTGCATTTTG  13099
+                     |  |..||||..||||      |||||    .|||    |..||      
+c81784-73434    7031 CAGCAGCTCCACCACC------CCTTC----AGGA----GAGGC------   7060
+
+c50265726-502  13100 ACTGTACTGGGTTCTGGTGAGTGTAGCAGCCCAGCTCCGAGCACGCAGGA  13149
+                      |||..|                      .||||  |||.||..||.|..
+c81784-73434    7061 -CTGATC----------------------ACCAG--CCGTGCCAGCTGCT   7085
+
+c50265726-502  13150 ACGCCTTGCCTCCTCTG---GAGAGACCTCAGCCACTAATGCCCATTTGG  13196
+                     .|.|||..||.||.|||   |||.|..|.|.||      ||||.|.|...
+c81784-73434    7086 TCACCTGCCCACCACTGCCCGAGGGCACACCGC------TGCCTACTAAA   7129
+
+c50265726-502  13197 AAACCCACAGGGTCAAGGACAAGTACAAGCTGCAGCAGACCTTCAGTGTG  13246
+                     .|||.||||....||...|||...|||..|.||.|     |||||     
+c81784-73434    7130 TAACACACACACACACACACACACACACACAGCTG-----CTTCA-----   7169
+
+c50265726-502  13247 AATCCCATCTACCTCAGGCATGCCAACTCAGGCGTGGCCACCGACTTCAT  13296
+                        ||...|.|||.|     ||||        ||.||.|||         
+c81784-73434    7170 ---CCTGCCCACCAC-----TGCC--------CGAGGGCAC---------   7194
+
+c50265726-502  13297 GGTGAGTGGCCAGGGACGGGCAGCCTGGTGGGCTCGGGTGGCCAGTGGGA  13346
+                             .|||        |.||||                        
+c81784-73434    7195 --------ACCA--------CTGCCT------------------------   7204
+
+c50265726-502  13347 ACTGTAGGCGTCTGAC-CCCCCAAAATCTGTACGGTGGCTCCCTTCAGAA  13395
+                     |||..|      |.|| |.|.||.|..|   ||    .|.|.| .||.| 
+c81784-73434    7205 ACTAAA------TAACACACACACACAC---AC----ACACAC-ACACA-   7239
+
+c50265726-502  13396 GGCAGCACACTATGAGCT-CATCTCATAATACTGCCAATGCATACCTTGG  13444
+                       || |||||....|||| |.||.|      |||||.      |||    
+c81784-73434    7240 --CA-CACACACACAGCTGCTTCAC------CTGCCC------ACC----   7270
+
+c50265726-502  13445 TTTCTAATTGTGCCTAAGTATATAGAATGAAACCCAGAAAATGGTTAAAA  13494
+                       .|      ||||..||          |..||.|.|   .||       
+c81784-73434    7271 --AC------TGCCCGAG----------GGCACACCG---CTG-------   7292
+
+c50265726-502  13495 ACCCTAGAAAATGAGACCAGCCTTTGAGGCAGTGTGCACATTTCCTGAAT  13544
+                       ||||..||||.|.||...|       .||     ||||          
+c81784-73434    7293 --CCTACTAAATAACACACAC-------ACA-----CACA----------   7318
+
+c50265726-502  13545 ATTTGTGGCATTTTTTAATTCCCAGAAATGCTCTTCCTACCACAGGTGGA  13594
+                             ||          |.||.|.|..|.|...|...||||      
+c81784-73434    7319 --------CA----------CACACACACACACACACACACACA------   7344
+
+c50265726-502  13595 CCAGTTCCTTCTGCCTCCATCTCGGGTCATCTTTTTTGTTTCTTACCCAG  13644
+                      ||   |...|...|.|...|.|                 .|..||.|||
+c81784-73434    7345 -CA---CACACACACACACACAC-----------------ACACACACAG   7373
+
+c50265726-502  13645 CAGCAGGGCAGGGTGGAGAATTTCCCTGGTGGGGAAAGAGCTTTCTTGCT  13694
+                     |.||                 |||.|                      ||
+c81784-73434    7374 CTGC-----------------TTCAC----------------------CT   7384
+
+c50265726-502  13695 GAAATCGCTTTTGTTTTTTTGTCCCTGACAGAGGCGCTGTGGGGCAGCTC  13744
+                     |....|                |.|||.|.||         |||||    
+c81784-73434    7385 GCCCAC----------------CACTGCCCGA---------GGGCA----   7405
+
+c50265726-502  13745 TGTGGTAGTGATGGGCTGCAGGACTTGTGTGAGGTTCTGGAAGCCTCCAA  13794
+                                                                 |.||. 
+c81784-73434    7406 --------------------------------------------CACCG-   7410
+
+c50265726-502  13795 GCATTCCTGACTTTCCCAACTGACTGCGCCTCAACTCTCTAACTCACTCT  13844
+                           |||      ||.|||.|.|       |||.|.|  ||.|||.|.
+c81784-73434    7411 ------CTG------CCTACTAAAT-------AACACAC--ACACACACA   7439
+
+c50265726-502  13845 CTCTCTCTTTTCTTTTGTTTTCTTTCTTTCTTTCTTTCTTTTTTTTTTTC  13894
+                     |.|.|.|.|                                         
+c81784-73434    7440 CACACACAT-----------------------------------------   7448
+
+c50265726-502  13895 TGAGACAGAGTCTCGCTCTGTCAACCAGGCTGGAGAGCAGTGGCGCCATC  13944
+                         |||    |.|.|.|  .||..|| ||||                 |
+c81784-73434    7449 ----ACA----CACACAC--ACACACA-GCTG-----------------C   7470
+
+c50265726-502  13945 TTGGCTCACTGCAACCTCCGCCTTCCAGGTTCAAGCGATTCTCCTGCCTC  13994
+                     ||  |.| ||||  ||.||.|.....|...|.||..|.|           
+c81784-73434    7471 TT--CAC-CTGC--CCACCACTAATTAATATTAATAGTT-----------   7504
+
+c50265726-502  13995 AGCTTTCCAAGTATCTGGGACTACAGGCGTGAGCCACCGCGCCCAGCAAA  14044
+                     ||..|||..||| |||                   ||.|||.||..||..
+c81784-73434    7505 AGTGTTCATAGT-TCT-------------------ACTGCGTCCTTCAGT   7534
+
+c50265726-502  14045 CCTCAACTCTCTTGATTCCACATCCTCAGCCAGTATTTTGCCTGAGGGAA  14094
+                     .| ...|||     |||.|..||..|||              ||.||.||
+c81784-73434    7535 TC-AGGCTC-----ATTTCTTATAATCA--------------TGTGGAAA   7564
+
+c50265726-502  14095 ACGAGTTCTTAACAAATTGACTCCGCAGTTTGAGGATGAGCCCTTCCTTT  14144
+                     |.||||                 ||||.||        |.|..|...|||
+c81784-73434    7565 AAGAGT-----------------CGCAATT--------AACTTTATTTTT   7589
+
+c50265726-502  14145 ACTTGTAGGGGAGACAGGGATGTAAACGAATGTATTACACATAACCTGGC  14194
+                     |||          .||.|  ||.||||.|.   ||              |
+c81784-73434    7590 ACT----------CCATG--TGCAAACAAG---AT--------------C   7610
+
+c50265726-502  14195 CAACGGAGGCAGCAGAGCAGAGTGGGGGCAAGCTTGGTTTGGAATTCCAT  14244
+                     ||.|   .||||||.|||||   |||.||                 |||.
+c81784-73434    7611 CATC---AGCAGCACAGCAG---GGGTGC-----------------CCAA   7637
+
+c50265726-502  14245 TCCAGCAGTGGCCCTTTGGGAAACTAACTGGACCTCTCTGAGCCTTGCTT  14294
+                     .|.  ||||                 .|||||       |.||  ||||.
+c81784-73434    7638 ACT--CAGT-----------------CCTGGA-------GGGC--TGCTG   7659
+
+c50265726-502  14295 TCCTTATCTGTAAAATGAGAATAGTGGCATTGATTCATAGGGTATTGTGA  14344
+                     ||||         ..||||..|||...||  |.|||              
+c81784-73434    7660 TCCT---------GCTGAGTTTAGCTCCA--GCTTC--------------   7684
+
+c50265726-502  14345 AGCTTAAATGGGAACACGTGTGGATCACCTAGCAAAATAGCCGTGTGGCA  14394
+                       |||.      ||||         |||||         |||   |||.|
+c81784-73434    7685 --CTTC------AACA---------CACCT---------GCC---TGGAA   7705
+
+c50265726-502  14395 AGTGCTCAATATATGGTAGGCATAGTATTTCT-GAAAGCTCTTCTTTGAA  14443
+                     ..|.|                 ||||||.||| |..||..|||..|  .|
+c81784-73434    7706 GTTTC-----------------TAGTATATCTAGTCAGAGCTTGAT--CA   7736
+
+c50265726-502  14444 GCTG---CAGAGATTTGTTAGGACAGTGGTTAGGCATGTAGGTGCTAAAG  14490
+                     ||||   |  ||.|.||||       ||.|||||   ||.||.||||||.
+c81784-73434    7737 GCTGGTTC--AGGTGTGTT-------TGATTAGG---GTTGGAGCTAAAC   7774
+
+c50265726-502  14491 CCAGATGGCATGTGTTGGAGTCCTGGCTTTCTGTTTACTAACTTGTGTGA  14540
+                     .|                  |||.||   ||     ||...|        
+c81784-73434    7775 TC------------------TCCAGG---TC-----ACCGGC--------   7790
+
+c50265726-502  14541 CCTCGGGCAAGTGACTTAAACTCTGTGTCCAGATTTCCTCTTGTGTCAAA  14590
+                     ||||   ||.  ||||.|.    ||||..||     ||.||         
+c81784-73434    7791 CCTC---CAG--GACTGAG----TGTGGACA-----CCCCT---------   7817
+
+c50265726-502  14591 TGAGGCTGATGACCACAGTTCTGGCTTCTTAGGCTTGCTGTGAGGATTAT  14640
+                         |.|...|||||..|  |...|.|||....|.|  |.|.|.||||| 
+c81784-73434    7818 ----GATCTAGACCATCG--CCTACATCTACACCAT--TATCATGATTA-   7858
+
+c50265726-502  14641 ACAAATTAATACACTGAAGTGCTGAGAG-CAGTGTCTGACCCCTGTAAGC  14689
+                            ||.||.||    |.|||..|| |||...||    |.|......
+c81784-73434    7859 -------AAAACCCT----TACTGGAAGTCAGAAACT----CATAATTAA   7893
+
+c50265726-502  14690 ATCCTTCCTTGTGAAGAGATGGTTTTATCTTATCTTCTTGGACAACTGAA  14739
+                     |||.|         |||.|.|.|||.|..|.|        .|||.     
+c81784-73434    7894 ATCAT---------AGAAAAGATTTAAAATAA--------AACAT-----   7921
+
+c50265726-502  14740 GTGTCTTGCCCTTTTAGTCTTAAAATAATAGCTTCGTCATCACTTGATTA  14789
+                          ||.|.||.|....|..|||.||...|.||.|       .||.|||
+c81784-73434    7922 -----TTACACTGTGGTACAAAAATTAGATGTTTAG-------ATGTTTA   7959
+
+c50265726-502  14790 TACTGGCTATTCTCCCTTGGACCAGTCCACACCCTCTTTAGATATTTGAA  14839
+                     |. ||...|.|| ..|...||.||||                      .|
+c81784-73434    7960 TT-TGTGAAATC-AACAGAGAACAGT----------------------GA   7985
+
+c50265726-502  14840 GCTTTTGGATTAGAATTGCAGCGGTAAGCCTCACGGCTTACTGGTGGTGA  14889
+                     ||    ||||     .|||.||.||.|    .|||||..|..||.||...
+c81784-73434    7986 GC----GGAT-----ATGCTGCTGTTA----AACGGCGGAGAGGAGGAAT   8022
+
+c50265726-502  14890 CAGAAGACCCTCTAGAGGTAAAGAAAGAAAGAAAAATAATGGTTCTTTAT  14939
+                     |.|.|                                             
+c81784-73434    8023 CTGCA---------------------------------------------   8027
+
+c50265726-502  14940 CTCCACTGC--TCTTTCTGGTAGGTTTTCAGAGATTTTTAATGAAAAATT  14987
+                     |.|..||||  |||.||||                              |
+c81784-73434    8028 CACGTCTGCAGTCTGTCTG------------------------------T   8047
+
+c50265726-502  14988 AAAAAAATTCCAGAACAGCCCAAGGGTCAGATATCTTTAGGGATAACTGT  15037
+                     |||||.|.||  |.|.|.||.||..|.|    |.|||             
+c81784-73434    8048 AAAAACACTC--GTAGATCCAAATAGAC----AACTT-------------   8078
+
+c50265726-502  15038 AGGTTTGCTTCCTGAGTGTGAATTGATGCCCATTCTCCTATGAGTGTATT  15087
+                                                    ||||||             
+c81784-73434    8079 -------------------------------ATTCTC-------------   8084
+
+c50265726-502  15088 TGGGTCATCATAACTGAGGAGCATTA-TATTCACCCTTGCCCTTTTGAAT  15136
+                         .||    ||| ||||||..||| |||||                ||
+c81784-73434    8085 ----ACA----AAC-GAGGAGATTTATTATTC----------------AT   8109
+
+c50265726-502  15137 TTCATGTTACCGTTTAAATTCATTTACCAC-AGTGCCTCAGGATCTTCCC  15185
+                     .||..|   |.||    |.||||   |||| .||.|.||||    ||  |
+c81784-73434    8110 ATCCAG---CAGT----AATCAT---CCACTCGTCCATCAG----TT--C   8143
+
+c50265726-502  15186 GGGGTTCATTCCTAGGAGTTTGGAGATTTTACAGTGCTCT-CTG-TCTTC  15233
+                     .|||||.||  |...|||   .|||||.|  |    |||. ||| |||||
+c81784-73434    8144 AGGGTTGAT--CAGAGAG---AGAGATCT--C----CTCCGCTGCTCTTC   8182
+
+c50265726-502  15234 CAGATAACTCATAAAAATGTTAGAGTAAACTCTTCCCAGCCCTGCTCTGG  15283
+                            |||||.|    ||..|||   ||.|.||.|..|.||..|.||.
+c81784-73434    8183 -------CTCATCA----GTGCGAG---ACGCCTCGCTCCTCTAATATGA   8218
+
+c50265726-502  15284 GGAACCTTATTATTTTTACCTCTCCACCCAGAAGGCACTGCCTTACACTT  15333
+                     |||.|...|  .||||....|.||||        ||||.|          
+c81784-73434    8219 GGATCAGGA--GTTTTGGGTTTTCCA--------GCACAG----------   8248
+
+c50265726-502  15334 ACCCTTCCCCCACCTTTAATCCTATGGATTTGATTTTCAAGTCCATGAAG  15383
+                            ||.|||.||||                 ||.|||  |||..||
+c81784-73434    8249 -------CCACACATTTA-----------------TTAAAG--CATTCAG   8272
+
+c50265726-502  15384 AAACTCCTAGAAAAGTGAAGTTGCTATCTTTTTCATGATCCTGAGGGTCC  15433
+                     |.                     |.|||                    ||
+c81784-73434    8273 AT---------------------CAATC--------------------CC   8281
+
+c50265726-502  15434 TCAGAGCTACTCTCACCTGGGCCCAATGTCTTTCCCACCCAGGTGGCTGC  15483
+                     ||| .||||..|   .|||            ||||| |..|..|...|||
+c81784-73434    8282 TCA-CGCTATAC---ACTG------------TTCCC-CAAATTTAAATGC   8314
+
+c50265726-502  15484 AGCTTTGAACAGAAGCTCAGTCCTGCTCTGAGATGAGCCAGAAACAGGGC  15533
+                     .|||||........|.|.|..|.|..||||.||..|.             
+c81784-73434    8315 TGCTTTATGAGTTTGATTAAACATTGTCTGTGAATAA-------------   8351
+
+c50265726-502  15534 AGCATCCCAGGAGAGAAGACTTAGGTGCTTAACCCCTGGGGTCCTGGAAT  15583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15584 CACCTAAAATCAGGGCTAGATTCTCTGACAGCGGAGAAGCTCCCTGTTTT  15633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15634 CTGCCTCTCACTGGACAGAGAGCACCAGTGGAGGGAGCGTTACCTTAGCC  15683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15684 TTGGCAAGGGAGCCCTGCAAGGACCTTACAAGGACACAGAGGAGGCTGGA  15733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15734 GATGCCTCAAGGTAAAGAAGAGCCCTGTCAGGCTTTATACGTCCAGATTT  15783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15784 TTTGATCCAACAGAAAATGTTGGCTAGAACCACTCTGCTGAGTCAGCATG  15833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15834 GATCAGTTTTGGAATAGTGACAAGAAAAGGAGCAACTGGGAATAAGGAAG  15883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15884 ATTGTGAAGAAATCAAAATAAAATCACCTCTGCCTATCCTGGTTTATTTG  15933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15934 CTGGTAAAATAAAGTAGCTCTCTCTATATATGAAATAAATTGGCTATAAC  15983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  15984 TATCTGGAAACCAGAACCTTTTGACAGATGATCCCTATCATCCGTTCATT  16033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16034 ATTCTCTTGGAGTGTCCATTGGACAAGAGGTGGAGTTGACACTTTCCTTG  16083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16084 TTACAGCAATTTTGTTCCATTTTCAGGTTTTGATGCCTTCTGCTGGCACA  16133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16134 AAAGCCCCCAAGCTGCTCCCCAGCACAACAGAGTTTTGCTTGGAAATCAA  16183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16184 AGGCTTAGTAGTTTTCTGCTGGGGAAACATTGTCCATCAACAAAGGGGTA  16233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16234 ACATCCCAACTGTGCCTGGCTCAGGAAACTGGGGTGAAGGGTGAAGGTGA  16283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16284 GGACATTTGTGAGGATTTGATAATCTTGTGTATGGGCAGATAAATACGCA  16333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16334 GTGGGACAAACATTTATTTTTAGTCAACAGAAATTGTGGTAGAAACTTTC  16383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16384 TGACGTTTGAGGGAGATGTCATTAGGAAACCACGTGACTCATTAGAATAA  16433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16434 CTGTAAATGTTTTCCAAATCCTCTGCTCTATTTTCAGATCTGAGAAATCA  16483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16484 GTCTGAAATTGATTTGGAAATTTTCAGATGTATGGTGACTGCAACCTTGA  16533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16534 ACTTTAAGCTCTGTTGAATTTGGCCACCAGGAGCAAAGAGTCAATTTTCA  16583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16584 TCTAACAGCGGCAGAAATTTGGGTGCTCATTTGAAATCTGACAGCTGGAG  16633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16634 TGATGGCTCTCAGATCACAGGAATCTCACAGGAAAATGAACAAGGCAGTG  16683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16684 TAAGGTTAAATAGGGGTCATCTTGGCTCTAGACAGAAATGCTACTGTGAT  16733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16734 TTGTAGCTCACATTTTAAAATAATCTAAATAGCCAACACCTACTGACAAC  16783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16784 TTCTTCTGAGGCTCTTGGCGTTCTTTGTCCTCACACCACTTGCCCGGGAG  16833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16834 GTGCAATTGGTTCTTTATGTCCCGGACTGATGAGCCAGTGAGGTGGCACT  16883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16884 ACCCAAGGTCACACAGCTAGTAAGTGGCACAGCTGGAGGCGAAACCTAGG  16933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16934 TCTGCAGGGCTCTAGTGTCTGTGCTCTAACTACCATACTTTACATTTTGG  16983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  16984 GAGGAATAAAAATAGAACTTTATTTTCTGCTATTCAAGGAATAAAGATTC  17033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17034 ATTTAGAGTAAAAATGTATTTCCCTTATGTTGAGTTTCTGGGCCGGGATG  17083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17084 AAATGTTTAAAGCAGCACTTGAAAGCAAAGTGCCCTTCTCATTGGTTCAG  17133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17134 GGTAATGGACTTGACTTCCACTTGTCTGGCTCTCAGACAAGTGACTATTG  17183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17184 GCCACCTTCATCAGTGATTTGGTCACACGATGGGGCAACCCTTGGGGAGC  17233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17234 TTGGCTTACTCCTTAGCAACAGCTCCCAGAGTCATGGTGACATCGTCCAT  17283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17284 CCCTGGAGGGCTGGGCAGGCAACAGATAATGCCCAGAAATGCCCGAGGGA  17333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17334 GTGGGGCACCCTTGTCTCTAACCTTGGGCACTGTGTTCCTTTGTTTCTAG  17383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17384 CACTGGCAGATCCCCCTGAGCCGACGGTTTCGCTCTGTTAAACTCTGGTT  17433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17434 CGTGATTCGGTCCTTCGGGGTGAAGAATCTTCAAGCACATGTCAGACATG  17483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17484 TATGTAGCATGCTGCTGTGGGGGCTGAGCCTGTGTTCCTCTGTTTTCTCA  17533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17534 TGGCGAGGAAGGCTGGTTTCTACTTTGCAGATCTGCCTAGGAGACTTGCG  17583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17584 GTGTGTGGTTCAGGTGTCTGGGCCTGTTCCTCAGCTCCTGGGACTTGATT  17633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17634 CTCTTTGTTAACCAGAGGAGCGCTGAGCACAACATGCCCTGAGGGCTGCC  17683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17684 TGATGCCTGTCCTCTGCTGAGTGTCTCACCGTTCCCCTTGCTGTCACTGA  17733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17734 GCACTGGGGAGGGTTGGCCCCAGAGTCTGGTTTGCAGGAAAGAGAAAGAG  17783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17784 AAAGTAAATCAAGGGGAAGTGTGTGTGGCCAGGGTAGGATCCTATCTGCT  17833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17834 TTGGAATTACCTCAATGGTCACAGCTGGCTGAATATTTTAGCACTATTAT  17883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17884 GATTATGCCTGAAATAAAGCTCCCCTGGCTTGGACAGGTAGACCTACCAA  17933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17934 GTCTGGAACAAACCTCCCTGCATCAACAGGCATTTATTGAAGGCCTATTT  17983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  17984 TGCTTAATTTATTTCTATTCAATTCAACAATTACAAGGTATTGTGCTAAG  18033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18034 AAAGGGACACAGAGGTAAATGAGACAGGTGCAGCCTCTCTCCCATGTTCT  18083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18084 TCATGGAAGAAGCGGGACTTAACTAAGAACTCTGGCCACTGGCATTGTTC  18133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18134 TCCCACTTCTACAAGAGTCCACATGCAAGACAAAGCCATTGATAAAAGTA  18183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18184 GTGGGGGAAGCTGAAGACACTGTCCTTTCTGCCTATGTGTGTCTTTGTCC  18233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18234 TTCCACCTTTCCTCTAGGGAATTCCTTCTTGGTTAAACAAACACAAACCA  18283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18284 AAATGAAGTGGTGGAAGCGGTAACTATGATTTTTTTTAACATTTAAAAAA  18333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18334 AATAATTATTATGCTTACATAATAATTACGTATATATTTATGGGGTATGT  18383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18384 GTGAGGTTTTGATACAGGCATACAATGTGCAATGATCAAATTAGGGTAAC  18433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18434 TGGGTATCCACCACTCAACCATTTATCATTTCTTTGTGTTAGAAACATTC  18483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18484 TAGTTCCATTCTTTAAGTTAGTTTGAAATGTACAGCAAATTATAGTTAAC  18533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18534 TATAGTTGCCTTATTGTGCCGCCTAACATTAGATCTATTTAATTGTATTT  18583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18584 TTGCGCCCGTTAACTATCACCTCTTTATCCCCCATTCCCTGCTACCCTTC  18633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18634 CCAGCCTCTGCCAACCATCATTCTACTGTGCGTCTCCACGAGCTCAGTTT  18683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18684 GCTTACTTTTTAACTCCCACGTTTGAGTGAGAACATGTGAAATTTGTCCT  18733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18734 TCTGTGCCTGGCTTATTTTGCTTAACATAATGTTCTCCAGTTTCCTATGA  18783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18784 CTGGTTTTAATGTTGGTAATTTTACCTTTGTAATCACCACTGGTTGTTTA  18833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18834 CCAATGAGCAGCTGCCACCAACAATATTGAGGAACTTTAGGCACTTTGTG  18883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18884 CTGTTTCTAGAAATGCAGACTCAAGACTGGAGGGTTGTGGGCGGGGAATG  18933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18934 GTTGGTGGAGGTTACAAGTAATTAGGAACATTTTTTTGCTTACAGTTTGG  18983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  18984 GACTGGATATTCAATGTGCAGATCCTGACTAACCTCCCTTAGCACTTCTG  19033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19034 TTTGCAAATCAAACCCCTGAATTCCTCCTATTAGCAACCCCATTGCCTAC  19083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19084 CATATGAGGCCCACACTCCTGGGCCTGGCTTTCAAGGACTTGACGATTAG  19133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19134 CTCCTACCTTAGCTTGGGCATTTCATCGACCCATCCAGACCTCATGCTCA  19183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19184 GTCCATCTCTGCACCTTCACCCGTGTCCTTCACCTGAACTACCCTCTCCT  19233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19234 CTCCAAATGTTGTGAATGGATTAAATTCTGCTTCCACTAGAAGCTTTTCT  19283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19284 GCCTATTCCATCTGTTCTGGTTTCTGCTTCATTAGCATTCCTGTGATCAC  19333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19334 CTACTCAAACACCTTTACAAAACTGTGCTCAAAGTTCTTCCAATGTCCCA  19383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19384 CAATAGAAGAAATGGAATTAAAATAAAGTTGTTTGATATGATTTGATTTT  19433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19434 ATCTCTTCAACTTGACGGTGATGATAATTATTGACACTTGCGTAATGCCT  19483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19484 TCAATACAAAAATAAATTCTAGTTCTTCATTAGATCCTTAGCACAGTGCC  19533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19534 TGGGGTGGTCACTCTAACCTGGCAAGGCTCAGAGGGAGTAATTGCCCTGC  19583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19584 TTGAGGGAAGAAGGCCCGGGACTTTCCCTGAAGCCTCCCAATTCCAAATC  19633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19634 CTTTCTTCATAGTTCTGGGCTGCTTTCTACTACACTGAGCTCTTGGAAAG  19683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19684 TTATATAAAATTAAATTTCATATTTCTGTGTTACAGAGAAGTGCTTTAAA  19733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19734 GAATGGATTTTTAGTTCTACCCTTTACTGTTTGATGACCTTAGACAAATT  19783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19784 ACTTAACCTTTCTATATTTGTCTGCCTTATTTATTTATTGTTATTTATTT  19833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19834 TTGAGATGAGGTCTCTGTTGCTCAGGCTGAAGTGCGGTAGTGCCATCAGA  19883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19884 GCTCACTGCAGCCTTGACCTCCCCAGGCTCAGGTGATCCTCCCACCTCAG  19933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19934 CCTCCTGAGTAGCTGGGACTACAGGCGCATACCATCATGCCTGGCTACTT  19983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  19984 TTTGTATTTTTTGTAGAGATGGGGTTTTGTCATGTTGCCCAGGTTGTTCT  20033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20034 CACGCTCCTGGGCTCAAGCAATCTGCCTACCTTGGCCTCCCAAAGTGCGA  20083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20084 GGATTACAGGCATGAGCCACCACCCCTGGCCATGCCTTCCTAATTTATAA  20133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20134 AAATGAGAAAAGGATACTACCTCTCTCAAATTAAATGAGATAATATATAT  20183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20184 GCAGCCCTTAGCACAGGGTCTACCTACTACTCAGTTAAGTACTCAATGAG  20233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20234 TACCTCTTCCTCTTCTCTTCTTCCCCTTCTTCATCATCTCCTTCTTCATC  20283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20284 TAATTATAATAAATTGTCATCATCATCACCATCATCATCATCATCATCCT  20333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20334 CATCTCCTATCACCTACAATAGGGATTGGTAAACATTTCCTGTAAAAAGC  20383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20384 CAGATACTAAATACTTTTGGCTTTGTGGGCCATACTCTATTGTAATTACC  20433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20434 TCTGTACTACAAGAGCTACCGTAGACAATATGTAAACAAATGGGAATGCT  20483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20484 GTGTTCCAAAAAACTTTACAAACACAGGTGGGGGCTATATTTGGCCATGG  20533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20534 CTGCACTGTGCCTGCCCTTGACCTAGAGCGGTGCAGGGCACTGGCAGCAG  20583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20584 CTCTGCTTTCATGACCTGTAAAGTGGGGCTTTGGAGGTGGCAGTGCTGCC  20633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20634 TGTGCTCTGTATTCTCCTCTCCCCTGACCTCTGCTTCTGTTATTGCAAAC  20683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20684 AGCATGTGTTGTAGGAGGGATAAAAGCACAGTGGGAGGAGATCTACCTAC  20733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20734 TGTCACTTGTACCTTGGGAAAGTCACTTTCCCTTGGTTCCTTCTAAAAAA  20783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20784 TGGAAAGATTGAGCTGGGCACAGGGGCACGTGTCTGTAGTCCCAGCTACT  20833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20834 TGGGAGGCTGAGGTGGGAAGCTCAATTGCTCCCACCATAGCCCAGGTGGG  20883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20884 AGTTCTGGGCTATGGTGTGCTATGCCAATTGAGTGTCCGCACTAAGTTCG  20933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20934 GCATCAATATGGTGACCTCCCAGGAGCAAGGGATCACCAGGTTGCCTAAG  20983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  20984 GAGGGGTGAAGGGGCCCAGGTTAGAAATGGAGCAGGTCAAAACTCCTGTG  21033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21034 CTGTTTGAAACTGACCACGCAGGGGAGAAAGGGGCTCTGAGAAAGATTTG  21083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21084 GAGAAACTCATTTCATTATGGTCAAAAGACAGGCTCAGGGCCAGACATGG  21133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21134 TGGCTCATGCCAGTAATCCCAGTACTTTGGGAGGCCTAGGAAGGAGGATC  21183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21184 GCTTAAGCCCAGGAGTTTGATACCAGGGTGAACAACCTAGTGAGACCACT  21233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21234 GTCTTTACAAAAAAATTAAAAAATGTAGCTGGGCATGGTGGTGCATGTCT  21283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21284 GTAGTCCTAGCTACTCAGGAGGTGAAGGTGGGAGGATTACTTGAGCTCAG  21333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21334 GAGTTCAAGGCTGCAGTGAGCTTTGATTGTGCAACATGCCTCTGTACTCT  21383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21384 AGCCTGTGTGACAAAGCAAGACCCTATCTCTCAAAAAAAAAAAAAAAAAA  21433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21434 AAAAAAAAGAGGTTCAGCTAACTCCCTTGCCCTCTCTTGAAATAGAGCAG  21483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21484 TAAGTATGAGAACTAACTGATAGAATTACTTAGCAAATATTTTATTGAGA  21533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21534 TCTTCTGGATGCTTGGAGAAATTTTTAAAAAGAAAAGAGAAGGCAAGTCC  21583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21584 TGTCCTTGTTTAGTTAGTAATCCTGGGTTAAAAACAAAAAGCAAAAAACC  21633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21634 CCAGGACATTTAAAAAGATGGTATGAACTTCAGTGGAAGATTAATATAAT  21683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21684 ACAAAGCCTTTAACATTTTAAAATTGTAACAAAATATTCATACCATAGAA  21733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21734 TGTACCATTTTACTCATTTTTAAGTGTACAATTCAGTGGCATTAAGAATA  21783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21784 CTCACAATGTGGTGTGACCATCACCATTATTTCCAGAATTTTTTCATCAT  21833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21834 CCCGAGCAGAAACTCTGTATCCATTAACCAGGTCCAAAACCTTTCCATGA  21883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21884 TGGGTGGAGACAAGATGTGAAAATATGTTCTCTATGGAATGTCAGAAACA  21933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21934 GGGGATGAAAAGGGCATTTGGGGTACAGGGTGAGAAGAGGTTTGAGAGGC  21983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  21984 AAGTGAAGCATGTAGGCTTAGGATGGGGCAGGGCCGCCACTAGCCCATAT  22033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22034 GGCAACTTGATGTGCACTACAAACAGGCATCTCTTCCTTTAGGCACACGC  22083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22084 AGCTCGCATGAGGCACCTGGCTGGGAACGCAGAGCATGGACTGGGTTTTG  22133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22134 GCCCTCACTTGCCCACTTGGCCAGTCAAGGAGCTGTGAAATCAGGAGTTG  22183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22184 AGGCCGGGTTGCCTGGACTGCAAAGCACATGCCTTCTGGGTTCTGGGGCT  22233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22234 GAGTTGAAAGAGGGCCCTGAGATGAGTTCTCGAGGTGGATCCCATGTGAC  22283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22284 AGGAAACAGGGCGCCATTGGAAATTTTCCAGCTTGGAATATGAGCAAAAT  22333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22334 CAAATGGAGATGACAATGAGGCAGAAGCCGCTTACAACGGCTGTGACGGG  22383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22384 AAGATGGCCCTGGTTTAAAACCATTTAGCAGTCTGAAAGTTTATGCATAG  22433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22434 TCTCTTGTCTGATGATTAATCTCAGTTCTCTTTATACTTGCAATTCCAGG  22483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22484 GTACTGAAATGGCTAAATATTTTGAATCTCTGGTCAGAAACGACCCTTCC  22533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22534 TTTGAAATTCCTGCCAAGAGGCACCTTGGCCTGGTGGTTTTTCGTCTAAA  22583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22584 GGTAATACCATCTTCCAAGCCCCTCTGTGAATGATGTCTTGTGGTGCTCC  22633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22634 AGAGCCTCTCGGAAACACAAATGCTGGGCTCTGGGGATGCTGACAGGGGG  22683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22684 TGCGATGGAGACTTCACTTCCTTTATTTTTCAAACAGGGTCCTAATTGTC  22733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22734 TCACAGAAAATGTGTTAAAGGAAATAGCTAAAGCTGGCCGTCTCTTCCTC  22783
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22784 ATCCCGGCCACTATCCAGGACAAGTTAATCATCCGTTTCACTGTGACATC  22833
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22834 CCAGTTTACCACTAGGGATGACATCCTGAGAGACTGGAATCTCATTCGAG  22883
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22884 ATGCTGCCACTCTCATCCTGAGTCAGCACTGTACTTCCCAACCCAGCCCT  22933
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22934 CGGGTTGGGAACCTCATCTCCCAAATCAGGGGTGCCAGAGCCTGGGCCTG  22983
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  22984 TGGAACGTCCCTTCAGTCTGTCAGTGGGGCAGGAGATGATCCAGTCCAGG  23033
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23034 CCAGGAAGATCATCAAGCAGCCTCAGCGTGTGGGAGCCGGTCCCATGAAA  23083
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23084 AGGGAAAATGGCCTCCATCTTGAAACCCTGCTGGACCCAGTTGATGACTG  23133
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23134 CTTTTCAGAAGAGGCCCCAGATGCCACCAAGCACAAGCTGTCCTCCTTCC  23183
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23184 TGTTCAGTTACTTGTCTGTGCAGACTAAGAAGAAGACGGTGCGCTCCCTC  23233
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23234 AGTTGCAACAGTGTGCCAGTGAGTGCTCAGAAGCCACTGCCCACAGAGGC  23283
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23284 CTCTGTGAAGAATGGGGGCTCCTCCAGGGTCAGAATCTTTTCCAGGTTTC  23333
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23334 CAGAAGACATGATGATGCTGAAGAAAAGTGCCTTCAAAAAACTCATCAAA  23383
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23384 TTCTACAGCGTCCCCAGCTTTCCTGAATGCAGCTCTCAATGTGGACTCCA  23433
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23434 GCTGCCCTGTTGCCCTCTGCAGGCCATGGTTTAGACACAGGGCCTTCAGC  23483
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23484 CAGAGTCTGAGGATATACTTCAGGGACTCTGTGAACCCCTCACAATTGTA  23533
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23534 TGCCAACTTTGTGTGCTTATGTGTACATGCATTTTTCTTGGGGCGAGTTC  23583
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23584 ATAATTTTAATCAAATTCTCATAGGGGTTCATGACCCACAATAGGATACA  23633
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23634 AACGAAGAGTTTAAGCCAGCATGATCCAGATGGGTTCAGCAGTCTGGTCA  23683
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23684 GTGAGAAAGGGCCGAGGGTAGACAGGCAGCTTCTGTGGTTCAGCTTGTGA  23733
+                                                                       
+c81784-73434    8352 --------------------------------------------------   8351
+
+c50265726-502  23734 CATGATATATAACACAGAAATAAATTATGCTTGTCCCTGAAACAAAA  23780
+                                                                    
+c81784-73434    8352 -----------------------------------------------   8351
+
+
+#---------------------------------------
+#---------------------------------------
