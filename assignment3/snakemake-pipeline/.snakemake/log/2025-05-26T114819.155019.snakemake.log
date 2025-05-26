@@ -1,0 +1,107 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 6
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+align             1
+all               1
+fastqc            1
+flagstat          1
+freebayes         1
+sam_to_bam        1
+sort_bam          1
+total             7
+
+Select jobs to execute...
+
+[Mon May 26 11:48:19 2025]
+rule align:
+    input: data/SRR33602302.fastq.gz, data/ecoli_reference.fna
+    output: snakemake_results_2025-05-26_11-48-19/mapping.sam
+    jobid: 4
+    reason: Missing output files: snakemake_results_2025-05-26_11-48-19/mapping.sam
+    resources: tmpdir=/tmp
+
+
+[Mon May 26 11:48:19 2025]
+rule fastqc:
+    input: data/SRR33602302.fastq.gz
+    output: snakemake_results_2025-05-26_11-48-19/fastqc/SRR33602302_fastqc.html, snakemake_results_2025-05-26_11-48-19/fastqc/SRR33602302_fastqc.zip
+    jobid: 6
+    reason: Missing output files: snakemake_results_2025-05-26_11-48-19/fastqc/SRR33602302_fastqc.html
+    threads: 2
+    resources: tmpdir=/tmp
+
+[Mon May 26 11:49:13 2025]
+Finished job 6.
+1 of 7 steps (14%) done
+[Mon May 26 11:50:21 2025]
+Finished job 4.
+2 of 7 steps (29%) done
+Select jobs to execute...
+
+[Mon May 26 11:50:21 2025]
+rule sam_to_bam:
+    input: snakemake_results_2025-05-26_11-48-19/mapping.sam
+    output: snakemake_results_2025-05-26_11-48-19/mapping.bam
+    jobid: 3
+    reason: Missing output files: snakemake_results_2025-05-26_11-48-19/mapping.bam; Input files updated by another job: snakemake_results_2025-05-26_11-48-19/mapping.sam
+    resources: tmpdir=/tmp
+
+[Mon May 26 11:50:43 2025]
+Finished job 3.
+3 of 7 steps (43%) done
+Select jobs to execute...
+
+[Mon May 26 11:50:43 2025]
+rule sort_bam:
+    input: snakemake_results_2025-05-26_11-48-19/mapping.bam
+    output: snakemake_results_2025-05-26_11-48-19/mapping.sorted.bam
+    jobid: 2
+    reason: Missing output files: snakemake_results_2025-05-26_11-48-19/mapping.sorted.bam; Input files updated by another job: snakemake_results_2025-05-26_11-48-19/mapping.bam
+    resources: tmpdir=/tmp
+
+
+[Mon May 26 11:50:43 2025]
+rule flagstat:
+    input: snakemake_results_2025-05-26_11-48-19/mapping.bam
+    output: snakemake_results_2025-05-26_11-48-19/mapping-report
+    log: snakemake_results_2025-05-26_11-48-19/pipeline-report.txt
+    jobid: 5
+    reason: Missing output files: snakemake_results_2025-05-26_11-48-19/pipeline-report.txt, snakemake_results_2025-05-26_11-48-19/mapping-report; Input files updated by another job: snakemake_results_2025-05-26_11-48-19/mapping.bam
+    resources: tmpdir=/tmp
+
+[Mon May 26 11:50:47 2025]
+Finished job 5.
+4 of 7 steps (57%) done
+[Mon May 26 11:51:16 2025]
+Finished job 2.
+5 of 7 steps (71%) done
+Select jobs to execute...
+
+[Mon May 26 11:51:16 2025]
+rule freebayes:
+    input: snakemake_results_2025-05-26_11-48-19/mapping.sorted.bam, snakemake_results_2025-05-26_11-48-19/mapping-report, data/ecoli_reference.fna, snakemake_results_2025-05-26_11-48-19/pipeline-report.txt
+    output: snakemake_results_2025-05-26_11-48-19/mapping.vcf
+    jobid: 1
+    reason: Missing output files: snakemake_results_2025-05-26_11-48-19/mapping.vcf; Input files updated by another job: snakemake_results_2025-05-26_11-48-19/pipeline-report.txt, snakemake_results_2025-05-26_11-48-19/mapping.sorted.bam, snakemake_results_2025-05-26_11-48-19/mapping-report
+    resources: tmpdir=/tmp
+
+[Mon May 26 12:01:15 2025]
+Finished job 1.
+6 of 7 steps (86%) done
+Select jobs to execute...
+
+[Mon May 26 12:01:15 2025]
+rule all:
+    input: snakemake_results_2025-05-26_11-48-19/mapping.vcf, snakemake_results_2025-05-26_11-48-19/mapping-report, snakemake_results_2025-05-26_11-48-19/fastqc/SRR33602302_fastqc.html, snakemake_results_2025-05-26_11-48-19/pipeline-report.txt
+    jobid: 0
+    reason: Rules with a run or shell declaration but no output are always executed.
+    resources: tmpdir=/tmp
+
+[Mon May 26 12:01:15 2025]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: .snakemake/log/2025-05-26T114819.155019.snakemake.log

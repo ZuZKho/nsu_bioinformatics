@@ -1,0 +1,105 @@
+##################################################
+
+config = {
+    "prefix": "data",
+    "read_set": "SRR33602302", # file has to be <read_set>.fastq.gz 
+    "reference": "ecoli_reference.fna"
+}
+###################################################
+
+
+import datetime
+
+# Dynamic results directory (uncomment datetime if needed)
+RESULTS_DIR = f"snakemake_results_{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+
+rule all:
+    input:
+        vcf =    f"{RESULTS_DIR}/mapping.vcf",
+        report = f"{RESULTS_DIR}/mapping-report",
+        fastqc = f"{RESULTS_DIR}/fastqc/{config['read_set']}_fastqc.html",
+        report_file = f"{RESULTS_DIR}/pipeline-report.txt"        
+    shell:
+        """
+        echo "Result files:" | tee -a {input.report_file}
+        echo "{input.fastqc}"  | tee -a {input.report_file}
+        echo "{input.report}" | tee -a {input.report_file}
+        echo "{input.vcf}" | tee -a {input.report_file}
+        """
+
+# FastQC quality control
+rule fastqc:
+    input:
+        f"{config['prefix']}/{config['read_set']}.fastq.gz"
+    output:
+        html = f"{RESULTS_DIR}/fastqc/{config['read_set']}_fastqc.html",
+        zip = f"{RESULTS_DIR}/fastqc/{config['read_set']}_fastqc.zip"
+    threads: 2
+    shell:
+        "fastqc -t {threads} -o {RESULTS_DIR}/fastqc {input}"
+
+# # Alignment with minimap2
+rule align:
+    input:
+        fastq = f"{config['prefix']}/{config['read_set']}.fastq.gz",
+        ref = f"{config['prefix']}/{config['reference']}"
+    output:
+        sam = f"{RESULTS_DIR}/mapping.sam"
+    shell:
+        "minimap2 -a {input.ref} {input.fastq} > {output.sam}"
+
+# Convert SAM to BAM
+rule sam_to_bam:
+    input:
+        f"{RESULTS_DIR}/mapping.sam"
+    output:
+        f"{RESULTS_DIR}/mapping.bam"
+    shell:
+        "samtools view -b {input} > {output}"
+
+# # Generate mapping stats
+rule flagstat:
+    input:
+        f"{RESULTS_DIR}/mapping.bam"
+    output:
+        f"{RESULTS_DIR}/mapping-report"
+    log:
+        report_file = f"{RESULTS_DIR}/pipeline-report.txt"
+    shell:
+        """
+        samtools flagstat {input} > {output}
+        echo "Mapping percentage: $(grep -oP '\\d+\\.\\d+(?=%)' {output} | head -1)%" | tee -a {log.report_file}
+        """
+
+# Sort BAM file
+rule sort_bam:
+    input:
+        f"{RESULTS_DIR}/mapping.bam"
+    output:
+        f"{RESULTS_DIR}/mapping.sorted.bam"
+    shell:
+        "samtools sort {input} > {output}"
+
+# Freebayes
+rule freebayes:
+    input:
+        bam =    f"{RESULTS_DIR}/mapping.sorted.bam",
+        report = f"{RESULTS_DIR}/mapping-report",
+        ref =    f"{config['prefix']}/{config['reference']}",
+        report_file = f"{RESULTS_DIR}/pipeline-report.txt"
+    output:
+        f"{RESULTS_DIR}/mapping.vcf"
+    params:
+        min_mapping_percent = 90.0
+    shell:
+        """
+        # Check mapping percentage
+        percent=$(grep -oP '\\d+\\.\\d+(?=%)' {input.report} | head -1)
+        if (( $(echo "$percent < {params.min_mapping_percent}" | bc -l) )); then
+            echo "Error: Mapping percentage ($percent%) is below threshold ({params.min_mapping_percent}%)" | tee -a {input.report_file}
+            exit 1
+        fi
+        
+        # Run freebayes
+        freebayes -f {input.ref} {input.bam} > {output}
+        """
